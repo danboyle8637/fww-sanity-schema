@@ -1,0 +1,88 @@
+import { FaLink, FaRegCompass, FaExternalLinkAlt } from 'react-icons/fa'
+
+export default {
+  name: 'blockContent',
+  title: 'Workout Page Level Block Content',
+  type: 'array',
+  of: [
+    {
+      type: 'block',
+      styles: [
+        { title: 'Normal', value: 'normal' },
+        { title: 'Heading 3', value: 'h3' },
+        { title: 'Heading 4', value: 'h4' },
+      ],
+      marks: {
+        decorators: [{ title: 'Strong', value: 'strong' }],
+        annotations: [
+          {
+            name: 'internalLink',
+            type: 'object',
+            title: 'Internal Post Link',
+            blockEditor: {
+              icon: FaLink,
+            },
+            fields: [
+              {
+                name: 'reference',
+                type: 'reference',
+                title: 'What post do you want to link to?',
+                to: [{ type: 'post' }],
+              },
+            ],
+          },
+          {
+            name: 'internalPageLink',
+            type: 'object',
+            title: 'Internal Page Link',
+            blockEditor: { icon: FaRegCompass },
+            fields: [
+              {
+                name: 'pageUrl',
+                title: 'What page do you want to link to?',
+                description: 'Copy and paste the entire link for the page.',
+                type: 'url',
+              },
+            ],
+          },
+          {
+            name: 'externalLink',
+            type: 'object',
+            title: 'External Page Link',
+            blockEditor: {
+              icon: FaExternalLinkAlt,
+            },
+            fields: [
+              {
+                name: 'externalUrl',
+                title: 'Where do you want to link to?',
+                description: 'Include the full url of the page.',
+                type: 'url',
+              },
+            ],
+          },
+        ],
+      },
+    },
+    {
+      name: 'postImage',
+      title: 'Post Image',
+      type: 'postImage',
+    },
+    {
+      name: 'formTip',
+      title: 'Form Tip',
+      type: 'formTip',
+    },
+    {
+      name: 'intensityTip',
+      title: 'Intensity Tip',
+      type: 'intensityTip',
+    },
+    {
+      name: 'shamelessPlug',
+      title: 'Shameless Plug',
+      type: 'shamelessPlug',
+    },
+  ],
+}

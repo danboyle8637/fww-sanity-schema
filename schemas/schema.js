@@ -1,0 +1,88 @@
+// First, we must import the schema creator
+import createSchema from 'part:@sanity/base/schema-creator'
+
+// Then import schema types from any plugins that might expose them
+import schemaTypes from 'all:part:@sanity/base/schema-type'
+import author from './author'
+import certification from './certification'
+import post from './post'
+import postTag from './postTag'
+import blockContent from './blockContent'
+import mobileImage from './Images/mobileImage'
+import iPadImage from './Images/iPadImage'
+import laptopImage from './Images/laptopImage'
+import cardImage from './Images/cardImage'
+import standardImage from './Images/standardImage'
+import detailedImage from './detailedImage'
+import postImage from './BlogPost/postImage'
+import pageImage from './pageImage'
+import backgroundImage from './Images/backgroundImage'
+import inPageImage from './Images/inPageImage'
+import workoutProgramCard from './Cards/workoutProgramCard'
+import testimonialCard from './Cards/testimonialCard'
+import ctaBannerCard from './Cards/ctaBannerCard'
+import nutritionCard from './Cards/nutritionProgramCard'
+import recipePreviewCard from './Cards/recipePreviewCard'
+import priceCard from './Cards/priceCard'
+import workoutProgramStatsBar from './Cards/workoutProgramStatsBar'
+import nutritionProgramStatsBar from './Cards/nutritionProgramStatsBar'
+import youTube from './BlogPost/youTube'
+import formTip from './BlogPost/formTip'
+import intensityTip from './BlogPost/intensityTip'
+import shamelessPlug from './BlogPost/shamelessPlug'
+import spacer from './spacer'
+
+import copyBlock from './copyBlock'
+
+import home from './Pages/home'
+import about from './Pages/about'
+import leadMagnetSalesPage from './Pages/leadMagnetSalesPage'
+import programsStorePage from './Pages/programsStorePage'
+import baseSalesPage from './Pages/baseSalesPage'
+import planSmartEatRealSalesPage from './Pages/planSmartEatRealSalesPage'
+
+// Then we give our schema to the builder and provide the result to Sanity
+export default createSchema({
+  // We name our schema
+  name: `Fit Women's Weekly`,
+  // Then proceed to concatenate our document type
+  // to the ones provided by any plugins that are installed
+  types: schemaTypes.concat([
+    /* Your types here! */
+    author,
+    certification,
+    post,
+    postTag,
+    blockContent,
+    mobileImage,
+    iPadImage,
+    laptopImage,
+    cardImage,
+    standardImage,
+    detailedImage,
+    postImage,
+    pageImage,
+    backgroundImage,
+    inPageImage,
+    workoutProgramCard,
+    testimonialCard,
+    ctaBannerCard,
+    nutritionCard,
+    recipePreviewCard,
+    priceCard,
+    workoutProgramStatsBar,
+    nutritionProgramStatsBar,
+    youTube,
+    formTip,
+    shamelessPlug,
+    spacer,
+    intensityTip,
+    copyBlock,
+    home,
+    about,
+    leadMagnetSalesPage,
+    programsStorePage,
+    baseSalesPage,
+    planSmartEatRealSalesPage,
+  ]),
+})
