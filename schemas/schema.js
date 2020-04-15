@@ -4,7 +4,6 @@ import createSchema from 'part:@sanity/base/schema-creator'
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 import author from './author'
-import certification from './certification'
 import post from './post'
 import postTag from './postTag'
 import blockContent from './blockContent'
@@ -13,7 +12,7 @@ import iPadImage from './Images/iPadImage'
 import laptopImage from './Images/laptopImage'
 import cardImage from './Images/cardImage'
 import standardImage from './Images/standardImage'
-import detailedImage from './detailedImage'
+import mainPostImage from './Images/mainPostImage'
 import postImage from './BlogPost/postImage'
 import pageImage from './pageImage'
 import backgroundImage from './Images/backgroundImage'
@@ -50,7 +49,6 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     author,
-    certification,
     post,
     postTag,
     blockContent,
@@ -59,7 +57,7 @@ export default createSchema({
     laptopImage,
     cardImage,
     standardImage,
-    detailedImage,
+    mainPostImage,
     postImage,
     pageImage,
     backgroundImage,

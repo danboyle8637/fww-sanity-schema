@@ -4,11 +4,10 @@ export default {
   type: 'object',
   fields: [
     {
-      name: 'content',
-      title: 'Tip Content:',
+      name: 'intensityTip',
+      title: 'Intensity Tip Content:',
       description: 'Keep it concise and to the point.',
-      type: 'array',
-      of: [{ type: 'blockContent' }],
+      type: 'blockContent',
     },
   ],
 }

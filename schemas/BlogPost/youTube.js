@@ -1,5 +1,5 @@
 export default {
-  name: 'youtube',
+  name: 'youTube',
   type: 'object',
   title: 'YouTube Embed:',
   fields: [

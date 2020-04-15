@@ -1,8 +1,13 @@
 import { FaLink, FaRegCompass, FaExternalLinkAlt } from 'react-icons/fa'
+import FormTipIcon from '../components/FormTipIcon'
+import IntensityTipIcon from '../components/IntensityTipIcon'
+import ShamelessPlugIcon from '../components/ShamelessPlugIcon'
+import YouTubeEmbedIcon from '../components/YouTubeEmbedIcon'
+import PostImageIcon from '../components/PostImageIcon'
 
 export default {
   name: 'blockContent',
-  title: 'Workout Page Level Block Content',
+  title: 'Rich Text Content',
   type: 'array',
   of: [
     {
@@ -27,7 +32,7 @@ export default {
                 name: 'reference',
                 type: 'reference',
                 title: 'What post do you want to link to?',
-                to: [{ type: 'post' }],
+                to: [{ type: 'blogPost' }],
               },
             ],
           },
@@ -67,22 +72,32 @@ export default {
     {
       name: 'postImage',
       title: 'Post Image',
+      icon: PostImageIcon,
       type: 'postImage',
     },
     {
       name: 'formTip',
       title: 'Form Tip',
+      icon: FormTipIcon,
       type: 'formTip',
     },
     {
       name: 'intensityTip',
       title: 'Intensity Tip',
+      icon: IntensityTipIcon,
       type: 'intensityTip',
     },
     {
       name: 'shamelessPlug',
       title: 'Shameless Plug',
+      icon: ShamelessPlugIcon,
       type: 'shamelessPlug',
+    },
+    {
+      name: 'youTubeEmbed',
+      title: 'YouTube Embed',
+      icon: YouTubeEmbedIcon,
+      type: 'youTube',
     },
   ],
 }

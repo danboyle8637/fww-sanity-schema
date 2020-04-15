@@ -1,5 +1,3 @@
-import { FaChartBar } from 'react-icons/fa'
-
 export default {
   name: 'nutritionProgramStatsBar',
   title: 'Nutrition Program Stats Bar',

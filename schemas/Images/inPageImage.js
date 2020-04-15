@@ -1,19 +1,9 @@
-import { FaFileImage } from 'react-icons/fa'
-
 export default {
   name: 'inPageImage',
   title: 'In Page Images',
-  icon: FaFileImage,
   type: 'object',
   options: { collapsible: true },
   fields: [
-    {
-      name: 'devTitle',
-      title: 'Dev Title:',
-      description:
-        'Add a title so you know what these images are when you connect them.',
-      type: 'string',
-    },
     {
       name: 'imageTitle',
       title: 'Image Title:',

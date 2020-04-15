@@ -7,8 +7,7 @@ export default {
       name: 'content',
       title: 'Tip Content:',
       description: 'Keep it concise and to the point.',
-      type: 'array',
-      of: [{ type: 'block' }],
+      type: 'blockContent',
     },
   ],
 }

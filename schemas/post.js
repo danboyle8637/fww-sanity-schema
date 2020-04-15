@@ -9,7 +9,7 @@ export default {
     {
       name: 'title',
       title: 'Title:',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'slug',
@@ -18,41 +18,41 @@ export default {
       type: 'slug',
       options: {
         source: 'title',
-        maxLength: 96
-      }
+        maxLength: 96,
+      },
     },
     {
       name: 'author',
       title: 'Author:',
       type: 'reference',
-      to: { type: 'author' }
+      to: { type: 'author' },
     },
     {
-      name: 'mainImage',
-      title: 'Main Image',
+      name: 'mainPostImage',
+      title: 'Main Post Image:',
       description:
-        'Upload a main image that will show on the blog post card. Dimensions - 1200x680',
-      type: 'detailedImage'
+        'This is used at the top of the blog post and on the post card.',
+      type: 'mainPostImage',
     },
     {
       name: 'tags',
       title: 'Tags:',
       description: 'Enter only the very relevant tag or tags for this post.',
       type: 'array',
-      of: [{ type: 'reference', to: { type: 'postTag' } }]
+      of: [{ type: 'reference', to: { type: 'postTag' } }],
     },
     {
       name: 'publishedAt',
       title: 'Published Date:',
       description: 'Enter the date to publish this post.',
-      type: 'datetime'
+      type: 'datetime',
     },
     {
       name: 'teaserCopy',
       title: 'Teaser Copy:',
       description: 'Sell the visitor to click and read this article.',
       type: 'text',
-      rows: 5
+      rows: 5,
     },
     {
       name: 'buttonText',
@@ -62,16 +62,16 @@ export default {
       options: {
         list: [
           { title: 'Podcast', value: 'Listen to Episode' },
-          { title: 'Article', value: 'Read the Post' }
+          { title: 'Article', value: 'Read the Post' },
         ],
         layout: 'radio',
-        direction: 'horizontal'
-      }
+        direction: 'horizontal',
+      },
     },
     {
       name: 'body',
       title: 'Post Body:',
-      type: 'blockContent'
-    }
-  ]
+      type: 'blockContent',
+    },
+  ],
 }

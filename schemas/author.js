@@ -9,7 +9,7 @@ export default {
     {
       name: 'name',
       title: 'Name',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'slug',
@@ -17,24 +17,29 @@ export default {
       type: 'slug',
       options: {
         source: 'name',
-        maxLength: 95
-      }
+        maxLength: 95,
+      },
     },
     {
       name: 'profileImage',
       title: 'Profile Image',
-      type: 'detailedImage'
+      type: 'standardImage',
     },
     {
       name: 'instagram',
-      title: 'Instagram Handle',
-      type: 'string'
+      title: 'Instagram Url',
+      type: 'url',
+    },
+    {
+      name: 'youtube',
+      title: 'YouTube Url',
+      type: 'url',
     },
     {
       name: 'certifications',
       title: 'Certifications',
       description: 'Just list the initials of the certifications you have.',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'bio',
@@ -46,9 +51,9 @@ export default {
           title: 'Block',
           type: 'block',
           styles: [{ title: 'Normal', value: 'normal' }],
-          lists: []
-        }
-      ]
-    }
-  ]
+          lists: [],
+        },
+      ],
+    },
+  ],
 }
