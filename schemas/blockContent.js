@@ -94,7 +94,7 @@ export default {
       type: 'shamelessPlug',
     },
     {
-      name: 'youTubeEmbed',
+      name: 'youTube',
       title: 'YouTube Embed',
       icon: YouTubeEmbedIcon,
       type: 'youTube',

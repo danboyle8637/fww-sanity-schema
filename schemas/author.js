@@ -23,15 +23,15 @@ export default {
     {
       name: 'profileImage',
       title: 'Profile Image',
-      type: 'standardImage',
+      type: 'image',
     },
     {
-      name: 'instagram',
+      name: 'instagramURL',
       title: 'Instagram Url',
       type: 'url',
     },
     {
-      name: 'youtube',
+      name: 'youtubeURL',
       title: 'YouTube Url',
       type: 'url',
     },

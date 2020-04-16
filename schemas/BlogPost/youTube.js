@@ -1,7 +1,7 @@
 export default {
   name: 'youTube',
-  type: 'object',
   title: 'YouTube Embed:',
+  type: 'object',
   fields: [
     {
       name: 'videoId',

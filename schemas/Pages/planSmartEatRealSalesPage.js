@@ -22,8 +22,7 @@ export default {
     {
       name: 'programHeaderImage',
       title: 'Program Header Image:',
-      type: 'reference',
-      to: [{ type: 'cardImage' }],
+      type: 'cardImage',
     },
     {
       name: 'programSalesVideoId',
@@ -34,8 +33,7 @@ export default {
     {
       name: 'programStatsBar',
       title: 'Program Stats Bar:',
-      type: 'reference',
-      to: [{ type: 'nutritionProgramStatsBar' }],
+      type: 'nutritionProgramStatsBar',
     },
     {
       name: 'purchaseButtonText1',
