@@ -23,6 +23,22 @@ export default {
       type: 'string',
     },
     {
+      name: 'programCategory',
+      title: 'Program Category:',
+      description: 'Choose what over arching category this program belongs to.',
+      type: 'array',
+      of: [{ type: 'string' }],
+      options: {
+        list: [
+          { value: 'ignite', title: 'Beginner' },
+          { value: 'body_burn', title: 'Body Burn' },
+          { value: 'strong', title: 'Kettlebells' },
+          { value: 'nutrition', title: 'Nutrition' },
+        ],
+      },
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: 'slug',
       title: 'Page Slug:',
       description: 'Autogenerate this by clicking on the button.',
