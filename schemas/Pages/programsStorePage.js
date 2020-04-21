@@ -17,6 +17,12 @@ export default {
       type: 'string',
     },
     {
+      name: 'headlineSectionImage',
+      title: 'Headline Section Image',
+      type: 'reference',
+      to: [{ type: 'backgroundImage' }],
+    },
+    {
       name: 'programsPageHeadline',
       title: 'Programs Page Headline:',
       type: 'string',

@@ -38,6 +38,24 @@ export default {
       type: 'iPadImage',
     },
     {
+      name: 'imageTitle',
+      title: 'Image Title:',
+      description: 'Give this image a short title.',
+      type: 'string',
+      options: {
+        isHighlighted: true,
+      },
+    },
+    {
+      name: 'imageAltTag',
+      title: 'Image Alt Tag:',
+      description: 'Describe what this image is for people who cannot see it.',
+      type: 'string',
+      options: {
+        isHighlighted: true,
+      },
+    },
+    {
       name: 'ctaHeadline',
       title: 'CTA Headline - Optional:',
       description: 'You probably do not need this, but just in case.',

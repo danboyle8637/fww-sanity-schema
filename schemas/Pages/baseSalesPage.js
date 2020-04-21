@@ -23,10 +23,19 @@ export default {
       type: 'string',
     },
     {
+      name: 'slug',
+      title: 'Page Slug:',
+      description: 'Autogenerate this by clicking on the button.',
+      type: 'slug',
+      options: {
+        source: 'devTitle',
+        maxLength: 96,
+      },
+    },
+    {
       name: 'programHeaderImage',
       title: 'Program Header Image:',
-      type: 'reference',
-      to: [{ type: 'cardImage' }],
+      type: 'cardImage',
       fieldset: 'videoSection',
     },
     {
