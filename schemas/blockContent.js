@@ -1,4 +1,9 @@
-import { FaLink, FaRegCompass, FaExternalLinkAlt } from 'react-icons/fa'
+import {
+  FaLink,
+  FaRegCompass,
+  FaExternalLinkAlt,
+  FaListAlt,
+} from 'react-icons/fa'
 import FormTipIcon from '../components/FormTipIcon'
 import IntensityTipIcon from '../components/IntensityTipIcon'
 import ShamelessPlugIcon from '../components/ShamelessPlugIcon'
