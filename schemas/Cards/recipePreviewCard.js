@@ -19,6 +19,13 @@ export default {
       type: 'cardImage',
     },
     {
+      name: 'recipeOrder',
+      title: 'Recipe Order:',
+      description:
+        'Enter a number to denote where in order it should be. Must look at other recipes.',
+      type: 'number',
+    },
+    {
       name: 'recipeHeadline',
       title: 'Recipe Headline:',
       type: 'string',

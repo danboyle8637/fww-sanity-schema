@@ -67,6 +67,12 @@ export default {
       type: 'copyBlock',
     },
     {
+      name: 'recipePreview',
+      title: 'Recipe Preview Copy:',
+      description: 'Let them know you have taken care of almost everything.',
+      type: 'copyBlock',
+    },
+    {
       name: 'foodEmotionCoaching',
       title: 'Food Emotion Coaching Copy:',
       description: 'Talk about what coaching they get and why it is important.',
@@ -82,6 +88,12 @@ export default {
       name: 'quickRecap',
       title: 'Quick Recap Copy:',
       description: 'Explain everything they get and why then need to join now.',
+      type: 'copyBlock',
+    },
+    {
+      name: 'purchaseNow',
+      title: 'Purchase Copy:',
+      description: 'Entice them to take action in one sentance.',
       type: 'copyBlock',
     },
     {
