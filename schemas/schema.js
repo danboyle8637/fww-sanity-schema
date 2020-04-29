@@ -39,6 +39,7 @@ import leadMagnetSalesPage from './Pages/leadMagnetSalesPage'
 import programsStorePage from './Pages/programsStorePage'
 import baseSalesPage from './Pages/baseSalesPage'
 import planSmartEatRealSalesPage from './Pages/planSmartEatRealSalesPage'
+import contactPage from './Pages/contact'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -82,5 +83,6 @@ export default createSchema({
     programsStorePage,
     baseSalesPage,
     planSmartEatRealSalesPage,
+    contactPage,
   ]),
 })
