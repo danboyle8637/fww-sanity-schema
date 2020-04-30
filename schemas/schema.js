@@ -29,7 +29,7 @@ import youTube from './BlogPost/youTube'
 import formTip from './BlogPost/formTip'
 import intensityTip from './BlogPost/intensityTip'
 import shamelessPlug from './BlogPost/shamelessPlug'
-import spacer from './spacer'
+import onTheFenceQuestions from './onTheFenceQuestions'
 
 import copyBlock from './copyBlock'
 
@@ -74,7 +74,7 @@ export default createSchema({
     youTube,
     formTip,
     shamelessPlug,
-    spacer,
+    onTheFenceQuestions,
     intensityTip,
     copyBlock,
     home,

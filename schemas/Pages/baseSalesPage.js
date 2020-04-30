@@ -8,6 +8,7 @@ export default {
   fieldsets: [
     { name: 'programStats', title: 'Program Stats Bar:' },
     { name: 'videoSection', title: 'Video Section' },
+    { name: 'objectionSection', title: 'Objection Section' },
   ],
   fields: [
     {

@@ -18,6 +18,12 @@ export default {
       type: 'string',
     },
     {
+      name: 'programPrice',
+      title: 'Program Price:',
+      description: 'MAKE SURE this matches the price set in the database.',
+      type: 'number',
+    },
+    {
       name: 'programBackgroundImage',
       title: 'Program Background Image:',
       type: 'cardImage',
