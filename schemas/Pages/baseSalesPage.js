@@ -119,7 +119,23 @@ export default {
     {
       name: 'programPriceCard',
       title: 'Program Price Card:',
-      type: 'priceCard',
+      type: 'reference',
+      to: [{ type: 'priceCards' }],
+    },
+    {
+      name: 'fwwMonthlyPriceCard',
+      title: 'FWW Monthly Price Card:',
+      description:
+        'Choose FWW Monthly price card if it applies for thir program.',
+      type: 'reference',
+      to: [{ type: 'priceCards' }],
+    },
+    {
+      name: 'dontWait',
+      title: `Don't Wait Copy:`,
+      description:
+        'Explain why they need to act now and call them to take that action.',
+      type: 'copyBlock',
     },
     {
       name: 'testimonial',

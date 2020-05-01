@@ -18,6 +18,13 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'purchaseGuarantee',
+      title: 'Purchase Guarantee:',
+      description:
+        'This is either the Fit or Yummy Guarantee. It is essecially the same for both.',
+      type: 'blockContent',
+    },
+    {
       name: 'purchaseButtonText',
       title: 'Purchase Program Button Text:',
       type: 'string',

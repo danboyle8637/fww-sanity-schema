@@ -23,6 +23,7 @@ import ctaBannerCard from './Cards/ctaBannerCard'
 import nutritionCard from './Cards/nutritionProgramCard'
 import recipePreviewCard from './Cards/recipePreviewCard'
 import priceCard from './Cards/priceCard'
+import docPriceCard from './priceCard'
 import workoutProgramStatsBar from './Cards/workoutProgramStatsBar'
 import nutritionProgramStatsBar from './Cards/nutritionProgramStatsBar'
 import youTube from './BlogPost/youTube'
@@ -69,6 +70,7 @@ export default createSchema({
     nutritionCard,
     recipePreviewCard,
     priceCard,
+    docPriceCard,
     workoutProgramStatsBar,
     nutritionProgramStatsBar,
     youTube,
