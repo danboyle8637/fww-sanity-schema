@@ -18,6 +18,17 @@ export default {
       type: 'string',
     },
     {
+      name: 'slug',
+      title: 'Program Slug:',
+      description:
+        'Program slug is lowercase name with dashes instead of spaces',
+      type: 'slug',
+      options: {
+        source: 'devTitle',
+        maxLength: 96,
+      },
+    },
+    {
       name: 'programPrice',
       title: 'Program Price:',
       description: 'MAKE SURE this matches the price set in the database.',
