@@ -20,8 +20,10 @@ export default {
       options: {
         list: [
           { title: 'FWW Monthly', value: 'fwwMonthly' },
+          { title: 'FWW Reset', value: 'fwwReset' },
           { title: 'Open Workout', value: 'openWorkout' },
           { title: 'Open Q and A', value: 'openQA' },
+          { title: 'Plan Smart Eat Real', value: 'PlanSmartEatReal' },
         ],
       },
     },
@@ -36,6 +38,12 @@ export default {
       title: 'Upload Above Mobile Image:',
       description: 'This is the image that will show on iPads and above.',
       type: 'iPadImage',
+    },
+    {
+      name: 'laptopImage',
+      title: 'Upload Laptop Image:',
+      description: 'This is the image that will show on laptops and bigger.',
+      type: 'laptopImage',
     },
     {
       name: 'imageTitle',

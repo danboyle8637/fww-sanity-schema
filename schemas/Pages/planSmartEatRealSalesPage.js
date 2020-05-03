@@ -20,6 +20,17 @@ export default {
       type: 'string',
     },
     {
+      name: 'slug',
+      title: 'Program Slug:',
+      description:
+        'Program slug is lowercase name with dashes instead of spaces',
+      type: 'slug',
+      options: {
+        source: 'devTitle',
+        maxLength: 96,
+      },
+    },
+    {
       name: 'programHeaderImage',
       title: 'Program Header Image:',
       type: 'cardImage',
