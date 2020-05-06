@@ -29,6 +29,7 @@ export default {
         list: [
           { title: 'One Time', value: 'One Time' },
           { title: 'Monthly', value: 'Monthly' },
+          { title: '2 Payments', value: '2 Payments' },
           { title: 'Free', value: 'FREE!' },
         ],
       },

@@ -159,12 +159,14 @@ export default {
     {
       name: 'singlePaymentPrice',
       title: 'Single Payment Price:',
-      type: 'priceCard',
+      type: 'reference',
+      to: [{ type: 'priceCards' }],
     },
     {
       name: 'twoPaymentPrice',
       title: 'Two Payment Price:',
-      type: 'priceCard',
+      type: 'reference',
+      to: [{ type: 'priceCards' }],
     },
   ],
 }

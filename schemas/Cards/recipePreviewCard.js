@@ -19,11 +19,21 @@ export default {
       type: 'cardImage',
     },
     {
-      name: 'recipeOrder',
-      title: 'Recipe Order:',
+      name: 'recipeMealType',
+      title: 'Recipe Meal Type:',
       description:
-        'Enter a number to denote where in order it should be. Must look at other recipes.',
-      type: 'number',
+        'Just select if this is primarily a breakfast, snack, dinner, etc...',
+      type: 'array',
+      of: [{ type: 'string' }],
+      options: {
+        list: [
+          { title: 'Breakfast', value: 'breakfast' },
+          { title: 'Lunch', value: 'lunch' },
+          { title: 'Dinner', value: 'dinner' },
+          { title: 'Dessert', value: 'dessert' },
+          { title: 'Snack', value: 'snack' },
+        ],
+      },
     },
     {
       name: 'recipeHeadline',
