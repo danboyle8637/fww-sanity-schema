@@ -28,12 +28,13 @@ export default {
       type: 'string',
     },
     {
-      name: 'resetHeadlineBackground',
+      name: 'headlineBackground',
       title: 'Headline Background:',
-      type: 'cardImage',
+      type: 'reference',
+      to: [{ type: 'backgroundImage' }],
     },
     {
-      name: 'resetVideoId',
+      name: 'salesVideoId',
       title: 'Sales Video Id:',
       type: 'number',
     },
@@ -42,7 +43,7 @@ export default {
       title: 'Killer Bullet Points:',
       description:
         'These are the hard hitting bullet points to sell account creation.',
-      type: 'blockContent',
+      type: 'copyBlock',
     },
     {
       name: 'callToActionHeadline',
