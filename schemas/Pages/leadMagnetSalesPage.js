@@ -46,10 +46,10 @@ export default {
       type: 'copyBlock',
     },
     {
-      name: 'callToActionHeadline',
-      title: 'Call to Action Headline:',
-      description: 'Keep it short, clear, but hard hitting as possible.',
-      type: 'string',
+      name: 'callToActionCopy',
+      title: 'Call to Action Copy:',
+      description: 'Tell them to click on a card and make it sound very easy.',
+      type: 'copyBlock',
     },
   ],
 }
