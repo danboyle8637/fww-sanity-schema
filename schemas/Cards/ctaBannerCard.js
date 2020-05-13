@@ -23,7 +23,7 @@ export default {
           { title: 'FWW Reset', value: 'fwwReset' },
           { title: 'Open Workout', value: 'openWorkout' },
           { title: 'Open Q and A', value: 'openQA' },
-          { title: 'Plan Smart Eat Real', value: 'PlanSmartEatReal' },
+          { title: 'Plan Smart Eat Real', value: 'planSmartEatReal' },
           { title: 'Nutrition Coaching', value: 'privateNutritionCoaching' },
           { title: 'FWW LIVE', value: 'fwwLive' },
         ],
@@ -77,6 +77,12 @@ export default {
       description:
         'This is the one to two sentance enticing call to click on the button.',
       type: 'text',
+    },
+    {
+      name: 'bannerSlug',
+      title: 'Banner Slug:',
+      description: 'Add the slug to where the banner should be linked to.',
+      type: 'slug',
     },
     {
       name: 'ctaButtonText',
