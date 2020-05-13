@@ -25,6 +25,7 @@ export default {
           { title: 'Open Q and A', value: 'openQA' },
           { title: 'Plan Smart Eat Real', value: 'PlanSmartEatReal' },
           { title: 'Nutrition Coaching', value: 'privateNutritionCoaching' },
+          { title: 'FWW LIVE', value: 'fwwLive' },
         ],
       },
     },

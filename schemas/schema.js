@@ -31,6 +31,7 @@ import formTip from './BlogPost/formTip'
 import intensityTip from './BlogPost/intensityTip'
 import shamelessPlug from './BlogPost/shamelessPlug'
 import onTheFenceQuestions from './onTheFenceQuestions'
+import fwwLiveClassScheduleCard from './Cards/fwwLiveClassScheduleCard'
 
 import copyBlock from './copyBlock'
 
@@ -40,6 +41,7 @@ import leadMagnetSalesPage from './Pages/leadMagnetSalesPage'
 import programsStorePage from './Pages/programsStorePage'
 import baseSalesPage from './Pages/baseSalesPage'
 import planSmartEatRealSalesPage from './Pages/planSmartEatRealSalesPage'
+import fwwLiveSalesPage from './Pages/fwwLiveSalesPage'
 import contactPage from './Pages/contact'
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -69,6 +71,7 @@ export default createSchema({
     ctaBannerCard,
     nutritionCard,
     recipePreviewCard,
+    fwwLiveClassScheduleCard,
     priceCard,
     docPriceCard,
     workoutProgramStatsBar,
@@ -86,5 +89,6 @@ export default createSchema({
     baseSalesPage,
     planSmartEatRealSalesPage,
     contactPage,
+    fwwLiveSalesPage,
   ]),
 })

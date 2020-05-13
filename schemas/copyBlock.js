@@ -1,5 +1,3 @@
-import { FaPencilAlt } from 'react-icons/fa'
-
 export default {
   name: 'copyBlock',
   title: 'Copy Block:',
