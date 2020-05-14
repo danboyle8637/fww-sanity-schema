@@ -1,12 +1,5 @@
-import {
-  FaLink,
-  FaRegCompass,
-  FaExternalLinkAlt,
-  FaListAlt,
-} from 'react-icons/fa'
+import { FaLink, FaRegCompass, FaExternalLinkAlt } from 'react-icons/fa'
 import FormTipIcon from '../components/FormTipIcon'
-import IntensityTipIcon from '../components/IntensityTipIcon'
-import ShamelessPlugIcon from '../components/ShamelessPlugIcon'
 import YouTubeEmbedIcon from '../components/YouTubeEmbedIcon'
 import PostImageIcon from '../components/PostImageIcon'
 
@@ -81,22 +74,10 @@ export default {
       type: 'postImage',
     },
     {
-      name: 'formTip',
-      title: 'Form Tip',
+      name: 'blogPostTip',
+      title: 'Blog Post Tip',
       icon: FormTipIcon,
-      type: 'formTip',
-    },
-    {
-      name: 'intensityTip',
-      title: 'Intensity Tip',
-      icon: IntensityTipIcon,
-      type: 'intensityTip',
-    },
-    {
-      name: 'shamelessPlug',
-      title: 'Shameless Plug',
-      icon: ShamelessPlugIcon,
-      type: 'shamelessPlug',
+      type: 'blogPostTip',
     },
     {
       name: 'youTube',

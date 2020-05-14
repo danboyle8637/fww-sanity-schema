@@ -24,12 +24,11 @@ import nutritionCard from './Cards/nutritionProgramCard'
 import recipePreviewCard from './Cards/recipePreviewCard'
 import priceCard from './Cards/priceCard'
 import docPriceCard from './priceCard'
+import blogCalloutCardImage from './Images/blogCalloutCardImage'
 import workoutProgramStatsBar from './Cards/workoutProgramStatsBar'
 import nutritionProgramStatsBar from './Cards/nutritionProgramStatsBar'
 import youTube from './BlogPost/youTube'
-import formTip from './BlogPost/formTip'
-import intensityTip from './BlogPost/intensityTip'
-import shamelessPlug from './BlogPost/shamelessPlug'
+import blogPostTip from './BlogPost/blogPostTip'
 import onTheFenceQuestions from './onTheFenceQuestions'
 import fwwLiveClassScheduleCard from './Cards/fwwLiveClassScheduleCard'
 
@@ -75,13 +74,12 @@ export default createSchema({
     fwwLiveClassScheduleCard,
     priceCard,
     docPriceCard,
+    blogCalloutCardImage,
     workoutProgramStatsBar,
     nutritionProgramStatsBar,
     youTube,
-    formTip,
-    shamelessPlug,
+    blogPostTip,
     onTheFenceQuestions,
-    intensityTip,
     copyBlock,
     home,
     about,
