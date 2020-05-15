@@ -25,8 +25,8 @@ export default {
       to: [{ type: 'blogCalloutCardImage' }],
     },
     {
-      name: 'formTip',
-      title: 'Form Tip Content:',
+      name: 'bodyCopy',
+      title: 'Tip Content:',
       description: 'Keep it concise and to the point.',
       type: 'blockContent',
     },

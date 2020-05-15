@@ -19,7 +19,7 @@ export default {
         decorators: [{ title: 'Strong', value: 'strong' }],
         annotations: [
           {
-            name: 'internalLink',
+            name: 'internalPostLink',
             type: 'object',
             title: 'Internal Post Link',
             blockEditor: {
@@ -43,8 +43,8 @@ export default {
               {
                 name: 'pageUrl',
                 title: 'What page do you want to link to?',
-                description: 'Copy and paste the entire link for the page.',
-                type: 'url',
+                description: 'Copy and paste only the part after the .com.',
+                type: 'string',
               },
             ],
           },
