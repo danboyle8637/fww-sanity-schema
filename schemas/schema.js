@@ -33,6 +33,7 @@ import onTheFenceQuestions from './onTheFenceQuestions'
 import fwwLiveClassScheduleCard from './Cards/fwwLiveClassScheduleCard'
 
 import copyBlock from './copyBlock'
+import earlyBirdSection from './earlyBirdSection'
 
 import home from './Pages/home'
 import about from './Pages/about'
@@ -81,6 +82,7 @@ export default createSchema({
     blogPostTip,
     onTheFenceQuestions,
     copyBlock,
+    earlyBirdSection,
     home,
     about,
     leadMagnetSalesPage,
