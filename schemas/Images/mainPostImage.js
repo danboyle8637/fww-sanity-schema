@@ -22,13 +22,13 @@ export default {
     },
     {
       name: 'titleText',
-      title: 'Title Text',
+      title: 'Image Title:',
       description: 'Give this image a title.',
       type: 'string',
     },
     {
       name: 'altText',
-      title: 'Alternate Text',
+      title: 'Image Alt Tag:',
       description:
         'Describe what this image is and/or is doing to a person who cannot see it.',
       type: 'string',
