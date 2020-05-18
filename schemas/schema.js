@@ -14,6 +14,7 @@ import cardImage from './Images/cardImage'
 import standardImage from './Images/standardImage'
 import mainPostImage from './Images/mainPostImage'
 import postImage from './BlogPost/postImage'
+import inlineCtaBanner from './BlogPost/inlineCtaBanner'
 import pageImage from './pageImage'
 import backgroundImage from './Images/backgroundImage'
 import inPageImage from './Images/inPageImage'
@@ -64,6 +65,7 @@ export default createSchema({
     standardImage,
     mainPostImage,
     postImage,
+    inlineCtaBanner,
     pageImage,
     backgroundImage,
     inPageImage,

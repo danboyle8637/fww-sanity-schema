@@ -85,5 +85,10 @@ export default {
       icon: YouTubeEmbedIcon,
       type: 'youTube',
     },
+    {
+      name: 'ctaBanner',
+      title: 'CTA Banner',
+      type: 'inlineCtaBanner',
+    },
   ],
 }
