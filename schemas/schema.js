@@ -43,6 +43,7 @@ import programsStorePage from './Pages/programsStorePage'
 import baseSalesPage from './Pages/baseSalesPage'
 import planSmartEatRealSalesPage from './Pages/planSmartEatRealSalesPage'
 import fwwLiveSalesPage from './Pages/fwwLiveSalesPage'
+import privateNutritionCoaching from './Pages/privateNutritionCoaching'
 import contactPage from './Pages/contact'
 import legalPages from './Pages/legalPages'
 
@@ -93,6 +94,7 @@ export default createSchema({
     planSmartEatRealSalesPage,
     contactPage,
     fwwLiveSalesPage,
+    privateNutritionCoaching,
     legalPages,
   ]),
 })
