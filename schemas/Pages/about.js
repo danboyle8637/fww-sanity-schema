@@ -82,5 +82,13 @@ export default {
       type: 'reference',
       to: [{ type: 'testimonialCard' }],
     },
+    {
+      name: 'testimonial3',
+      title: 'Testimonial:',
+      description:
+        'This testimonial heeps praise on us as people and trainers, not about programs.',
+      type: 'reference',
+      to: [{ type: 'testimonialCard' }],
+    },
   ],
 }
