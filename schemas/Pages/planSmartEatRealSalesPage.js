@@ -168,5 +168,37 @@ export default {
       type: 'reference',
       to: [{ type: 'priceCards' }],
     },
+    {
+      name: 'nutritionTestimonial1',
+      title: 'Nutrition Testimonial:',
+      description:
+        'Make sure this testimonial has to do with Plan Smart Eat Real.',
+      type: 'reference',
+      to: [{ type: 'testimonialCard' }],
+    },
+    {
+      name: 'nutritionTestimonial2',
+      title: 'Nutrition Testimonial:',
+      description:
+        'Make sure this testimonial has to do with Plan Smart Eat Real.',
+      type: 'reference',
+      to: [{ type: 'testimonialCard' }],
+    },
+    {
+      name: 'nutritionTestimonial3',
+      title: 'Nutrition Testimonial:',
+      description:
+        'Make sure this testimonial has to do with Plan Smart Eat Real.',
+      type: 'reference',
+      to: [{ type: 'testimonialCard' }],
+    },
+    {
+      name: 'nutritionTestimonial4',
+      title: 'Nutrition Testimonial:',
+      description:
+        'Make sure this testimonial has to do with Plan Smart Eat Real.',
+      type: 'reference',
+      to: [{ type: 'testimonialCard' }],
+    },
   ],
 }

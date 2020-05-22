@@ -75,5 +75,21 @@ export default {
       type: 'reference',
       to: [{ type: 'testimonialCard' }],
     },
+    {
+      name: 'nutritionTestimonial1',
+      title: 'Nutrition Testimonial:',
+      description:
+        'Make sure this testimonial has to do with general nutrition.',
+      type: 'reference',
+      to: [{ type: 'testimonialCard' }],
+    },
+    {
+      name: 'nutritionTestimonial2',
+      title: 'Nutrition Testimonial:',
+      description:
+        'Make sure this testimonial has to do with general nutrition.',
+      type: 'reference',
+      to: [{ type: 'testimonialCard' }],
+    },
   ],
 }
