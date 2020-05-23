@@ -2,6 +2,8 @@ import { FaLink, FaRegCompass, FaExternalLinkAlt } from 'react-icons/fa'
 import FormTipIcon from '../components/FormTipIcon'
 import YouTubeEmbedIcon from '../components/YouTubeEmbedIcon'
 import PostImageIcon from '../components/PostImageIcon'
+import PodcastEmbedIcon from '../components/PodcastEmbedIcon'
+import CtaBannerIcon from '../components/CtaBannerIcon'
 
 export default {
   name: 'blockContent',
@@ -86,8 +88,15 @@ export default {
       type: 'youTube',
     },
     {
+      name: 'podcast',
+      title: 'Podcast Embed',
+      icon: PodcastEmbedIcon,
+      type: 'podcast',
+    },
+    {
       name: 'ctaBanner',
       title: 'CTA Banner',
+      icon: CtaBannerIcon,
       type: 'inlineCtaBanner',
     },
   ],

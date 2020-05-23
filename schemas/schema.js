@@ -29,6 +29,7 @@ import blogCalloutCardImage from './Images/blogCalloutCardImage'
 import workoutProgramStatsBar from './Cards/workoutProgramStatsBar'
 import nutritionProgramStatsBar from './Cards/nutritionProgramStatsBar'
 import youTube from './BlogPost/youTube'
+import podcast from './BlogPost/podcast'
 import blogPostTip from './BlogPost/blogPostTip'
 import onTheFenceQuestions from './onTheFenceQuestions'
 import fwwLiveClassScheduleCard from './Cards/fwwLiveClassScheduleCard'
@@ -82,6 +83,7 @@ export default createSchema({
     workoutProgramStatsBar,
     nutritionProgramStatsBar,
     youTube,
+    podcast,
     blogPostTip,
     onTheFenceQuestions,
     copyBlock,
