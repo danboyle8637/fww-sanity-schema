@@ -55,20 +55,6 @@ export default {
       rows: 5,
     },
     {
-      name: 'buttonText',
-      title: 'Button Text',
-      description: 'Choose the button text based on type of post.',
-      type: 'string',
-      options: {
-        list: [
-          { title: 'Podcast', value: 'Listen to Episode' },
-          { title: 'Article', value: 'Read the Post' },
-        ],
-        layout: 'radio',
-        direction: 'horizontal',
-      },
-    },
-    {
       name: 'body',
       title: 'Post Body:',
       type: 'blockContent',
