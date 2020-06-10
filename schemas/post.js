@@ -12,6 +12,12 @@ export default {
       type: 'string',
     },
     {
+      name: 'socialShareInformation',
+      title: 'Social Share Information:',
+      description: 'This is all of the social sharing info for social media.',
+      type: 'socialShareBlock',
+    },
+    {
       name: 'slug',
       title: 'Page Path:',
       description: 'Enter a short, keyword based path to this post.',
