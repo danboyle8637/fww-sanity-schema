@@ -20,6 +20,12 @@ export default {
       to: [{ type: 'backgroundImage' }],
     },
     {
+      name: 'socialShareInformation',
+      title: 'Social Share Information:',
+      description: 'This is all of the social sharing info for social media.',
+      type: 'socialShareBlock',
+    },
+    {
       name: 'aboutHeadlineAndLead',
       title: 'About Main Headline and Lead Copy:',
       type: 'copyBlock',

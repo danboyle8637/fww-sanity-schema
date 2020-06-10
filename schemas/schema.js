@@ -33,6 +33,7 @@ import podcast from './BlogPost/podcast'
 import blogPostTip from './BlogPost/blogPostTip'
 import onTheFenceQuestions from './onTheFenceQuestions'
 import fwwLiveClassScheduleCard from './Cards/fwwLiveClassScheduleCard'
+import socialShareInformation from './socialShareInformation'
 
 import copyBlock from './copyBlock'
 import earlyBirdSection from './earlyBirdSection'
@@ -100,5 +101,6 @@ export default createSchema({
     privateNutritionCoaching,
     legalPages,
     thankYouPages,
+    socialShareInformation,
   ]),
 })

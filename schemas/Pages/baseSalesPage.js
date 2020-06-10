@@ -31,6 +31,12 @@ export default {
       rows: 4,
     },
     {
+      name: 'socialShareInformation',
+      title: 'Social Share Information:',
+      description: 'This is all of the social sharing info for social media.',
+      type: 'socialShareBlock',
+    },
+    {
       name: 'programId',
       title: 'Program Id:',
       description: 'Camel cased program title all one word.',
