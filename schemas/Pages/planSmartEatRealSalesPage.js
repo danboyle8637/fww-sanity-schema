@@ -104,7 +104,7 @@ export default {
     {
       name: 'quickRecap',
       title: 'Quick Recap Copy:',
-      description: 'Explain everything they get and why then need to join now.',
+      description: 'Explain everything they get and why they need to join now.',
       type: 'copyBlock',
     },
     {
