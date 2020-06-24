@@ -36,9 +36,16 @@ export default {
       },
     },
     {
-      name: 'programHeaderImage',
-      title: 'Program Header Image:',
-      type: 'cardImage',
+      name: 'mainHeadline',
+      title: 'Headline:',
+      description: 'Keep it short but hardcore. It is the most important part.',
+      type: 'string',
+    },
+    {
+      name: 'headlineBackground',
+      title: 'Headline Background:',
+      type: 'reference',
+      to: [{ type: 'backgroundImage' }],
     },
     {
       name: 'programSalesVideoId',
@@ -107,12 +114,6 @@ export default {
       name: 'quickRecap',
       title: 'Quick Recap Copy:',
       description: 'Explain everything they get and why they need to join now.',
-      type: 'copyBlock',
-    },
-    {
-      name: 'dontWait',
-      title: `Don't Wait Copy:`,
-      description: 'Explain why they need to act now and call them to take that action.',
       type: 'copyBlock',
     },
   ],
