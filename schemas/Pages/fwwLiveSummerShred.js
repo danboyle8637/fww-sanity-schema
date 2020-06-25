@@ -94,6 +94,12 @@ export default {
       type: 'copyBlock',
     },
     {
+      name: 'swagPreviewImage',
+      title: 'Swag Preview Image:',
+      description: 'Upload a cool image to show what a swag bag actually looks like.',
+      type: 'inPageImage'
+    },
+    {
       name: 'fwwLiveScheduleCopy',
       title: 'FWW LIVE Schedule Copy',
       type: 'copyBlock',
