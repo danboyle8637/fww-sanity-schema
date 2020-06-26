@@ -111,10 +111,22 @@ export default {
       type: 'copyBlock',
     },
     {
-      name: 'earlyBirdSignUpSection',
-      title: 'Early Bird Sign Up Section:',
-      description: 'Explain why they need to get on the Early Bird list.',
+      name: 'earlyBirdSignUpSection1',
+      title: 'Early Bird Sign Up Section 1:',
+      description: 'Write the first of the Early Bird section.',
       type: 'copyBlock',
+    },
+    {
+      name: 'earlyBirdSignUpSection2',
+      title: 'Early Bird Sign Up Section 2:',
+      description: 'Write the rest of the Early Bird section.',
+      type: 'copyBlock',
+    },
+    {
+      name: 'switchBookImage',
+      title: 'Switch Book Image:',
+      description: 'Upload the image of the PDF version of the Switch book.',
+      type: 'inPageImage'
     },
     {
       name: 'quickRecap',
