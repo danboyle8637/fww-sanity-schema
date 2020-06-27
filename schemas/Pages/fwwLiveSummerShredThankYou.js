@@ -13,6 +13,12 @@ export default {
       type: 'string',
     },
     {
+      name: 'thankYouVideoId',
+      title: 'Thank You Video Id:',
+      description: 'This is the Vimeo video id.',
+      type: 'number',
+    },
+    {
       name: 'thankYouSection',
       title: 'Thank You Section:',
       description: 'Say thank you and make sure they get Switch.',
