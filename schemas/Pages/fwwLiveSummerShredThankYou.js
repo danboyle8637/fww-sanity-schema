@@ -42,5 +42,11 @@ export default {
       description: 'Upload the image of the PDF version of the Switch book.',
       type: 'inPageImage'
     },
+    {
+      name: 'switchBookDownloadLink',
+      title: 'Switch Book PDF',
+      description: 'Upload the PDF of Switch.',
+      type: 'file'
+    }
   ]
 }
