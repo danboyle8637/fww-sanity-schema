@@ -21,9 +21,9 @@ export default {
       of: [{ type: "string" }],
       options: {
         list: [
-          { title: "One Payment", value: "one_payment" },
-          { title: "First Month", value: "first_month" },
-          { title: "Second Month", value: "second_month" },
+          { title: "One Payment", value: "One Payment" },
+          { title: "First Month", value: "Month One" },
+          { title: "Second Month", value: "Month Two" },
         ],
       },
     },
