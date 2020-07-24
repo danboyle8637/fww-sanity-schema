@@ -1,9 +1,9 @@
-import { GiPalmTree } from "react-icons/gi";
+import BreakdownPriceCard from "../../components/BreakdownPriceCard"
 
 export default {
   name: "priceCardsSummerShred",
-  title: "Price Cards Summer Shred",
-  icon: GiPalmTree,
+  title: "Breakdown Price Card",
+  icon: BreakdownPriceCard,
   type: "document",
   fields: [
     {
@@ -79,4 +79,4 @@ export default {
       type: "string",
     },
   ],
-};
+}
