@@ -66,6 +66,11 @@ export default {
       type: "copyBlock",
     },
     {
+      name: "fwwLiveIphoneImage",
+      title: "FWW LIVE iPhone Image",
+      type: "inPageImage",
+    },
+    {
       name: "signUpFormCopy",
       title: "Sign Up Form Copy:",
       description:
