@@ -27,5 +27,12 @@ export default {
       title: "Free Trial Workout 3:",
       type: "fwwLiveFreeWorkoutCard",
     },
+    {
+      name: "joinFWWLiveNowCopy",
+      title: "Join FWW LIVE Now Copy:",
+      description:
+        "Get them motivated to at least try FWW LIVE with the 9 dollar trial.",
+      type: "copyBlock",
+    },
   ],
 }

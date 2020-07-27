@@ -100,5 +100,11 @@ export default {
       type: "reference",
       to: [{ type: "priceCards" }],
     },
+    {
+      name: "threeMonthPriceCard",
+      title: "3 Month Price Card:",
+      type: "reference",
+      to: [{ type: "priceCards" }],
+    },
   ],
 }

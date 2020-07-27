@@ -66,8 +66,13 @@ export default {
       type: "copyBlock",
     },
     {
-      name: "fwwLiveIphoneImage",
-      title: "FWW LIVE iPhone Image",
+      name: "fwwLiveIphoneImage1",
+      title: "FWW LIVE iPhone Image 1",
+      type: "inPageImage",
+    },
+    {
+      name: "fwwLiveIphoneImage2",
+      title: "FWW LIVE iPhone Image 2",
       type: "inPageImage",
     },
     {
