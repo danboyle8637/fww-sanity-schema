@@ -44,15 +44,18 @@ import leadMagnetSalesPage from "./Pages/leadMagnetSalesPage"
 import programsStorePage from "./Pages/programsStorePage"
 import baseSalesPage from "./Pages/baseSalesPage"
 import planSmartEatRealSalesPage from "./Pages/planSmartEatRealSalesPage"
-import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
+
 import privateNutritionCoaching from "./Pages/privateNutritionCoaching"
 import contactPage from "./Pages/contact"
 import legalPages from "./Pages/legalPages"
 import thankYouPages from "./Pages/thankYouPages"
 import breakdownPriceCard from "./Cards/priceCardsSummerShred"
+
+import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveFreeWorkoutCard from "./Cards/fwwLiveFreeWorkoutCard"
 import fwwLiveThreeFreeWorkouts from "./Pages/fwwLiveThreeFreeWorkouts"
 import fwwLiveFreeWorkoutsDelivery from "./Pages/fwwLiveFreeWorkoutsDelivery"
+import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -110,5 +113,6 @@ export default createSchema({
     fwwLiveFreeWorkoutCard,
     fwwLiveThreeFreeWorkouts,
     fwwLiveFreeWorkoutsDelivery,
+    fwwLiveUpsellPage,
   ]),
 })

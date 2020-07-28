@@ -18,6 +18,11 @@ export default {
       type: "string",
     },
     {
+      name: "salesVideoId",
+      title: "Sales Video Id:",
+      type: "number",
+    },
+    {
       name: "fwwLiveBullets1",
       title: "FWW LIVE Class Schedule Bullets:",
       description:
@@ -46,9 +51,20 @@ export default {
       type: "copyBlock",
     },
     {
-      name: "fwwLiveWhyUpsell",
-      title: "FWW LIVE Why Upsell",
-      type: "fwwLiveUpsellCard",
+      name: "fwwWhyUpsell",
+      title: "Why Offer Upsell:",
+      description: "Be transparent about why we are making this offer.",
+      type: "copyBlock",
+    },
+    {
+      name: "purchaseSpecialButtonText",
+      title: "Purchase Special Button Text",
+      type: "string",
+    },
+    {
+      name: "skipSpecialButtonText",
+      title: "Skip Special Button Text",
+      type: "string",
     },
   ],
 }
