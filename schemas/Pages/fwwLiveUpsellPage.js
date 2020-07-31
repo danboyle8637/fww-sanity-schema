@@ -23,6 +23,11 @@ export default {
       type: "number",
     },
     {
+      name: "fwwLiveIphoneImage",
+      title: "FWW LIVE iPhone Image:",
+      type: "inPageImage",
+    },
+    {
       name: "fwwLiveBullets1",
       title: "FWW LIVE Class Schedule Bullets:",
       description:
