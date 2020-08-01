@@ -62,6 +62,12 @@ export default {
       type: "copyBlock",
     },
     {
+      name: "fwwCallToAction",
+      title: "FWW LIVE Special Call To Action:",
+      description: "Motivate them to take action on this special offer.",
+      type: "copyBlock",
+    },
+    {
       name: "purchaseSpecialButtonText",
       title: "Purchase Special Button Text",
       type: "string",
