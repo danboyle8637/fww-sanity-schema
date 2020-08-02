@@ -71,11 +71,6 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "fwwLiveIphoneImage2",
-      title: "FWW LIVE iPhone Image 2",
-      type: "inPageImage",
-    },
-    {
       name: "signUpFormCopy",
       title: "Sign Up Form Copy:",
       description:
