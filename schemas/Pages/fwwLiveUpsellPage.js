@@ -68,6 +68,12 @@ export default {
       type: "copyBlock",
     },
     {
+      name: "fwwMissedChance",
+      title: "FWW LIVE Special Missed Chance:",
+      description: "Tell them sorry they missed their chance.",
+      type: "copyBlock",
+    },
+    {
       name: "purchaseSpecialButtonText",
       title: "Purchase Special Button Text",
       type: "string",
