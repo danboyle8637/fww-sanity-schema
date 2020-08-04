@@ -41,10 +41,40 @@ export default {
       type: "string",
     },
     {
-      name: "fwwLiveBulletPoints",
-      title: "Killer Bullet Points:",
+      name: "fwwLiveIphoneImage1",
+      title: "FWW LIVE iPhone Image for Workouts Bullets Sections:",
+      type: "inPageImage",
+    },
+    {
+      name: "fwwLiveIphoneImage2",
+      title: "FWW LIVE iPhone Image for Results Bullets Section:",
+      type: "inPageImage",
+    },
+    {
+      name: "fwwLiveWorkoutsSection",
+      title: "FWW LIVE Workouts Section Bullets:",
       description:
-        "These are the hard hitting bullet points to sell account creation.",
+        "These are about the workouts and the number of workouts a user gets.",
+      type: "copyBlock",
+    },
+    {
+      name: "fwwLiveScheduleBullets",
+      title: "FWW LIVE Custom Schedule Bullets:",
+      description:
+        "These are about how you can build your own workout schedule with this program.",
+      type: "copyBlock",
+    },
+    {
+      name: "fwwLiveResultsBullets",
+      title: "FWW LIVE Results Bullets:",
+      description:
+        "These are about getting results because we push your hard and have fun.",
+      type: "copyBlock",
+    },
+    {
+      name: "fwwLiveCommunityBullets",
+      title: "FWW LIVE Community Bullets:",
+      description: "These are about our amazing FWW LIVE community.",
       type: "copyBlock",
     },
     {
