@@ -49,6 +49,24 @@ export default {
       type: "string",
     },
     {
+      name: "bulletPoint1",
+      title: "Bullet Point 1:",
+      description: "Enter the first bullet point.",
+      type: "string",
+    },
+    {
+      name: "bulletPoint2",
+      title: "Bullet Point 2:",
+      description: "Enter the second bullet point.",
+      type: "string",
+    },
+    {
+      name: "bulletPoint3",
+      title: "Bullet Point 3:",
+      description: "Enter the third bullet point.",
+      type: "string",
+    },
+    {
       name: "purchaseBulletPoints",
       title: "Purchase Bullet Points:",
       description:
