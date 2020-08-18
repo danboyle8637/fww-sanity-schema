@@ -96,6 +96,13 @@ export default {
       type: "copyBlock",
     },
     {
+      name: "classScheduleCopy",
+      title: "Class Schedule Copy:",
+      description:
+        "Just a simple headline and description to tell the user to click on the day.",
+      type: "copyBlock",
+    },
+    {
       name: "workoutStyleHeadline",
       title: "Workout Style Headline:",
       description: "Tell them about each day's workout style.",

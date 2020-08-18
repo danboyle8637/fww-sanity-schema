@@ -51,6 +51,7 @@ import legalPages from "./Pages/legalPages"
 import thankYouPages from "./Pages/thankYouPages"
 import breakdownPriceCard from "./Cards/priceCardsSummerShred"
 import fwwLiveWorkoutStyleCards from "./Cards/fwwLiveWorkoutStyleCards"
+import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
 
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveFreeWorkoutCard from "./Cards/fwwLiveFreeWorkoutCard"
@@ -107,6 +108,7 @@ export default createSchema({
     planSmartEatRealSalesPage,
     contactPage,
     fwwLiveSalesPage,
+    fwwLiveClassScheduleCard2,
     privateNutritionCoaching,
     legalPages,
     thankYouPages,
