@@ -67,6 +67,12 @@ export default {
       type: "string",
     },
     {
+      name: "miniCardBulletPoint",
+      title: "Mini Price Card Bullet:",
+      description: "Enter the text that will show on the mini price card.",
+      type: "string",
+    },
+    {
       name: "purchaseBulletPoints",
       title: "Purchase Bullet Points:",
       description:

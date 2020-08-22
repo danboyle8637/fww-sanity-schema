@@ -122,5 +122,11 @@ export default {
         "Call the prospect to action. Get them motivated and excited to purchase right now.",
       type: "copyBlock",
     },
+    {
+      name: "afterTrialPricingCopy",
+      title: "After Trial Pricing Copy:",
+      description: "Explain... I want no surpises so here is the pricing.",
+      type: "copyBlock",
+    },
   ],
 }
