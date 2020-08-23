@@ -23,16 +23,22 @@ export default {
       type: "number",
     },
     {
-      name: "fwwWhyUpsell",
-      title: "Why Offer Upsell:",
-      description: "Be transparent about why we are making this offer.",
-      type: "copyBlock",
-    },
-    {
       name: "fwwCallToAction",
       title: "FWW LIVE Special Call To Action:",
       description: "Motivate them to take action on this special offer.",
       type: "copyBlock",
+    },
+    {
+      name: "sixMonthPriceCard",
+      title: "Six Month Card:",
+      type: "reference",
+      to: [{ type: "priceCards" }],
+    },
+    {
+      name: "sixMonthSpecialPriceCard",
+      title: "Six Month Special Card:",
+      type: "reference",
+      to: [{ type: "priceCards" }],
     },
     {
       name: "fwwMissedChance",

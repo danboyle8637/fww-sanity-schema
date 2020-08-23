@@ -30,6 +30,7 @@ export default {
           { title: "One Time", value: "One Time" },
           { title: "Monthly", value: "Monthly" },
           { title: "3 Months", value: "3 Months" },
+          { title: "6 Months", value: "6 Months" },
           { title: "2 Payments", value: "2 Payments" },
           { title: "Free", value: "FREE!" },
         ],
@@ -65,26 +66,6 @@ export default {
       title: "Bullet Point 3:",
       description: "Enter the third bullet point.",
       type: "string",
-    },
-    {
-      name: "miniCardBulletPoint",
-      title: "Mini Price Card Bullet:",
-      description: "Enter the text that will show on the mini price card.",
-      type: "string",
-    },
-    {
-      name: "purchaseBulletPoints",
-      title: "Purchase Bullet Points:",
-      description:
-        "Three bullet points to ease their emotions when commiting to purchasing.",
-      type: "blockContent",
-    },
-    {
-      name: "purchaseGuarantee",
-      title: "Purchase Guarantee:",
-      description:
-        "This is either the Fit or Yummy Guarantee. It is essecially the same for both.",
-      type: "blockContent",
     },
     {
       name: "purchaseButtonText",

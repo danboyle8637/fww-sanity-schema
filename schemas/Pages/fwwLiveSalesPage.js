@@ -83,36 +83,6 @@ export default {
       type: "copyBlock",
     },
     {
-      name: "mondaySchedule",
-      title: "Monday Schedule:",
-      type: "fwwLiveClassScheduleCard",
-    },
-    {
-      name: "tuesdaySchedule",
-      title: "Tuesday Schedule:",
-      type: "fwwLiveClassScheduleCard",
-    },
-    {
-      name: "wednesdaySchedule",
-      title: "Wednesday Schedule:",
-      type: "fwwLiveClassScheduleCard",
-    },
-    {
-      name: "thursdaySchedule",
-      title: "Thursday Schedule:",
-      type: "fwwLiveClassScheduleCard",
-    },
-    {
-      name: "fridaySchedule",
-      title: "Friday Schedule:",
-      type: "fwwLiveClassScheduleCard",
-    },
-    {
-      name: "sundaySchedule",
-      title: "Sunday Schedule:",
-      type: "fwwLiveClassScheduleCard",
-    },
-    {
       name: "callToActionCopy",
       title: "Call to Action Copy:",
       description: "Tell them to click on a card and make it sound very easy.",
