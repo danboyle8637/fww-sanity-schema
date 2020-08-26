@@ -52,11 +52,10 @@ import thankYouPages from "./Pages/thankYouPages"
 import breakdownPriceCard from "./Cards/priceCardsSummerShred"
 import fwwLiveWorkoutStyleCards from "./Cards/fwwLiveWorkoutStyleCards"
 import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
-
+import fwwLive3DayTrialThankYou from "./Pages/fwwLive3DayTrialThankYou"
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
-import fwwLiveFreeWorkoutCard from "./Cards/fwwLiveFreeWorkoutCard"
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial"
-import fwwLiveFreeWorkoutsDelivery from "./Pages/fwwLiveFreeWorkoutsDelivery"
+
 import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
 import transformationsPage from "./Pages/transformationsPage"
 
@@ -114,11 +113,10 @@ export default createSchema({
     thankYouPages,
     socialShareInformation,
     breakdownPriceCard,
-    fwwLiveFreeWorkoutCard,
     fwwLiveWorkoutStyleCards,
     fwwLiveThreeDayTrial,
-    fwwLiveFreeWorkoutsDelivery,
     fwwLiveUpsellPage,
     transformationsPage,
+    fwwLive3DayTrialThankYou,
   ]),
 })
