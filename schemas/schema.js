@@ -55,6 +55,7 @@ import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
 import fwwLive3DayTrialThankYou from "./Pages/fwwLive3DayTrialThankYou"
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial"
+import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP"
 
 import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
 import transformationsPage from "./Pages/transformationsPage"
@@ -116,6 +117,7 @@ export default createSchema({
     fwwLiveWorkoutStyleCards,
     fwwLiveThreeDayTrial,
     fwwLiveUpsellPage,
+    fwwLiveTestimonialLP,
     transformationsPage,
     fwwLive3DayTrialThankYou,
   ]),
