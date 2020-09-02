@@ -1,9 +1,9 @@
-import FWWLiveLPIcon from "../../components/FWWLiveLPIcon"
+import FWWLiveLogo from "../../components/FWWLiveLogo"
 
 export default {
   name: "fwwLiveThreeDayTrialLP",
   title: "FWW LIVE 3 Day Trial LP",
-  icon: FWWLiveLPIcon,
+  icon: FWWLiveLogo,
   type: "document",
   fields: [
     {

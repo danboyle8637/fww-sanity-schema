@@ -74,5 +74,12 @@ export default {
       type: "reference",
       to: [{ type: "priceCards" }],
     },
+    {
+      name: "disclaimerCopy",
+      title: "Disclaimer Copy:",
+      description:
+        "Tell the disclaimer about these testimonials and what you can really expect.",
+      type: "copyBlock",
+    },
   ],
 }

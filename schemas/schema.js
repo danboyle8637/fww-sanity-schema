@@ -55,6 +55,7 @@ import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
 import fwwLive3DayTrialThankYou from "./Pages/fwwLive3DayTrialThankYou"
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial"
+import fwwLive7DayTrial from "./Pages/fwwLive7DayTrial"
 import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP"
 
 import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
