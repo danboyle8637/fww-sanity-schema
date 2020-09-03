@@ -1,9 +1,9 @@
-import FWWLiveFreeWorkoutsPageIcon from "../../components/FWWLiveFreeWorkoutsPageIcon"
+import FWWLiveLogo from "../../components/FWWLiveLogo"
 
 export default {
-  name: "fwwLive3DayTrialThankYou",
-  title: "FWW Live 3 Day Trial Thank You",
-  icon: FWWLiveFreeWorkoutsPageIcon,
+  name: "fwwLiveTrialThankYou",
+  title: "FWW Live Trial Thank You Page",
+  icon: FWWLiveLogo,
   type: "document",
   fields: [
     {
