@@ -36,6 +36,17 @@ export default {
       type: "number",
     },
     {
+      name: "trialQuickstartImage",
+      title: "FWW Live Trial Quickstart Plan Image:",
+      type: "inPageImage",
+    },
+    {
+      name: "trialQuickstartImageCaption",
+      title: "FWW Live Trial Quickstart Image Caption",
+      description: "Just explain how they get a plan to follow.",
+      type: "text",
+    },
+    {
       name: "leadCopy",
       title: "Lead In Copy:",
       description: "The lead to get them excited and to get them to read more.",

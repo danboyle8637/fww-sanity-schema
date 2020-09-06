@@ -36,5 +36,12 @@ export default {
         "Make sure they know how to get in touch with you so they can use this trial.",
       type: "copyBlock",
     },
+    {
+      name: "fwwLiveTrialSetup3",
+      title: "FWW LIVE Trial Trial Setup Part 3:",
+      description:
+        "This is about them downloading the Quickstart training plan.",
+      type: "copyBlock",
+    },
   ],
 }
