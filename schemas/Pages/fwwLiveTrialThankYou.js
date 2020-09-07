@@ -41,7 +41,18 @@ export default {
       title: "FWW LIVE Trial Trial Setup Part 3:",
       description:
         "This is about them downloading the Quickstart training plan.",
-      type: "copyBlock",
+      type: "text",
+      rows: 6,
+    },
+    {
+      name: "fwwLiveTrialPrivateGroupLink",
+      title: "FWW Live Private Facebook Group Link:",
+      type: "url",
+    },
+    {
+      name: "fwwLiveTrialQuickstartPlanDownloadLink",
+      title: "FWW Live Quickstart Download Link:",
+      type: "file",
     },
   ],
 }

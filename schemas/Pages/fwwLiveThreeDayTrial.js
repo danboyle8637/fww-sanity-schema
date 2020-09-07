@@ -45,6 +45,7 @@ export default {
       title: "FWW Live Trial Quickstart Image Caption",
       description: "Just explain how they get a plan to follow.",
       type: "text",
+      rows: 6,
     },
     {
       name: "leadCopy",
