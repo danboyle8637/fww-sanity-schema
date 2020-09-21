@@ -56,6 +56,7 @@ import fwwLiveTrialThankYou from "./Pages/fwwLiveTrialThankYou"
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial"
 import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP"
+import fwwLiveSweatySelfieContent from "./Pages/fwwLiveSweatySelfieContest"
 
 import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
 import transformationsPage from "./Pages/transformationsPage"
@@ -120,5 +121,6 @@ export default createSchema({
     fwwLiveTestimonialLP,
     transformationsPage,
     fwwLiveTrialThankYou,
+    fwwLiveSweatySelfieContent,
   ]),
 })
