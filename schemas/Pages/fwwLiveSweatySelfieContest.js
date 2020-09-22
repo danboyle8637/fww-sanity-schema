@@ -4,6 +4,7 @@ export default {
   name: "fwwLiveSweatySelfieContent",
   title: "FWW Live Sweaty Selfie Contest",
   icon: LiveLogo,
+  type: "document",
   fields: [
     {
       name: "devTitle",
@@ -126,7 +127,7 @@ export default {
       type: "string",
     },
     {
-      name: "callToActionHeadline1",
+      name: "callToActionHeadline2",
       title: "Call to Action Headline 2:",
       description: "Tell them... this is how to sign up.",
       type: "string",
