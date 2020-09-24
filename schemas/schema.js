@@ -23,7 +23,6 @@ import testimonialCard from "./Cards/testimonialCard"
 import ctaBannerCard from "./Cards/ctaBannerCard"
 import nutritionCard from "./Cards/nutritionProgramCard"
 import recipePreviewCard from "./Cards/recipePreviewCard"
-import priceCard from "./Cards/priceCard"
 import docPriceCard from "./priceCard"
 import blogCalloutCardImage from "./Images/blogCalloutCardImage"
 import workoutProgramStatsBar from "./Cards/workoutProgramStatsBar"
@@ -49,7 +48,6 @@ import privateNutritionCoaching from "./Pages/privateNutritionCoaching"
 import contactPage from "./Pages/contact"
 import legalPages from "./Pages/legalPages"
 import thankYouPages from "./Pages/thankYouPages"
-import breakdownPriceCard from "./Cards/priceCardsSummerShred"
 import fwwLiveWorkoutStyleCards from "./Cards/fwwLiveWorkoutStyleCards"
 import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
 import fwwLiveTrialThankYou from "./Pages/fwwLiveTrialThankYou"
@@ -90,7 +88,6 @@ export default createSchema({
     nutritionCard,
     recipePreviewCard,
     fwwLiveClassScheduleCard,
-    priceCard,
     docPriceCard,
     blogCalloutCardImage,
     workoutProgramStatsBar,
@@ -114,7 +111,6 @@ export default createSchema({
     legalPages,
     thankYouPages,
     socialShareInformation,
-    breakdownPriceCard,
     fwwLiveWorkoutStyleCards,
     fwwLiveThreeDayTrial,
     fwwLiveUpsellPage,

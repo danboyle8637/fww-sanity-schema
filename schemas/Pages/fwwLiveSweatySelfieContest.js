@@ -13,8 +13,22 @@ export default {
       type: "string",
     },
     {
-      name: "mainHeadline",
-      title: "Main Headline:",
+      name: "mainHeadline1",
+      title: "Main Headline 1:",
+      description:
+        "This is just going to be Sweaty Selfie, but you can change it around if needed.",
+      type: "string",
+    },
+    {
+      name: "mainHeadline2",
+      title: "Main Headline 2:",
+      description:
+        "This is just going to be Sweaty Selfie, but you can change it around if needed.",
+      type: "string",
+    },
+    {
+      name: "mainHeadline3",
+      title: "Main Headline 3:",
       description:
         "This is just going to be Sweaty Selfie, but you can change it around if needed.",
       type: "string",
@@ -60,22 +74,24 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "sweatySelfieEntryDateDetails",
-      title: "The Date Details of the Sweaty Selfie Contest:",
-      description:
-        "The details of when to register, when the last entry will be taken, and when the winner will be picked.",
-      type: "copyBlock",
+      name: "sweatySelfieEnterDeadline",
+      title: "Sweaty Selfie Enter Deadline:",
+      type: "date",
+    },
+    {
+      name: "sweatySelfieLastDaySelfie",
+      title: "Sweaty Selfie Last Day To Send In Selfie:",
+      type: "date",
+    },
+    {
+      name: "sweatySelfieChooseWinner",
+      title: "Sweaty Selfie Choose Winner Date:",
+      type: "date",
     },
     {
       name: "whatIsTheSweatySelfieContest1",
       title: "What Is The Sweaty Selfie Content Part 1:",
       description: "Introduce the Sweaty Selfie contest.",
-      type: "copyBlock",
-    },
-    {
-      name: "whatIsTheSweatySelfieContest2",
-      title: "What Is The Sweaty Selfie Content Part 2:",
-      description: "Why we are doing the Sweaty Selfie contest.",
       type: "copyBlock",
     },
     {
@@ -121,14 +137,8 @@ export default {
       type: "copyBlock",
     },
     {
-      name: "callToActionHeadline1",
-      title: "Call to Action Headline 1:",
-      description: "Tell them... this is how to sign up.",
-      type: "string",
-    },
-    {
-      name: "callToActionHeadline2",
-      title: "Call to Action Headline 2:",
+      name: "callToActionHeadline",
+      title: "Call to Action Headline:",
       description: "Tell them... this is how to sign up.",
       type: "string",
     },
@@ -177,13 +187,8 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "fwwLiveTrainingPlanCover",
-      title: "FWW Live 7 Day Trial Training Plan Image:",
-      type: "inPageImage",
-    },
-    {
-      name: "fwwLiveKindalDanImage",
-      title: "Great Picture of Kindal and Dan:",
+      name: "fwwLivePageImages",
+      title: "FWW LIVE Page Images:",
       type: "inPageImage",
     },
   ],

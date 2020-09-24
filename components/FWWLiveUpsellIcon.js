@@ -23,7 +23,7 @@ const FWWLiveUpsellIcon = () => {
         <clipPath id="liveUpsellClip2">
           <path d="M125.649 103.105V28.984h49.832v15.18h-32.559v13.924h30.779v14.343h-30.779V87.82h34.444v15.285h-51.717z" />
         </clipPath>
-        <g clip-path="url(#liveUpsellClip2)">
+        <g clipPath="url(#liveUpsellClip2)">
           <path
             id="e-shadow"
             d="M125.649 62.474s5.338-14.48 12.077-21.551c8.024-8.42 17.186-11.939 17.186-11.939l-19.324-1.915-6.071.215-8.263 10.828-.593 14.659 4.988 9.703z"
@@ -70,7 +70,7 @@ const FWWLiveUpsellIcon = () => {
         <clipPath id="liveUpsellClip8">
           <path d="M59.67 54.122h18.007v48.983H59.67z" />
         </clipPath>
-        <g clip-path="url(#liveUpsellClip8)">
+        <g clipPath="url(#liveUpsellClip8)">
           <path
             id="i-letter-shadow"
             d="M68.673 82.462s3.033 6.748 7.284 11.064c5.046 5.124 9.244 3.874 9.244 3.874l-6.78 20.079-6.072-.214-8.262-10.828-.593-14.66 5.179-9.315z"
