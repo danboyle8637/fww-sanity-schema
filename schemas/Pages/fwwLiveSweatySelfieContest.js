@@ -76,17 +76,17 @@ export default {
     {
       name: "sweatySelfieEnterDeadline",
       title: "Sweaty Selfie Enter Deadline:",
-      type: "date",
+      type: "string",
     },
     {
       name: "sweatySelfieLastDaySelfie",
       title: "Sweaty Selfie Last Day To Send In Selfie:",
-      type: "date",
+      type: "string",
     },
     {
       name: "sweatySelfieChooseWinner",
       title: "Sweaty Selfie Choose Winner Date:",
-      type: "date",
+      type: "string",
     },
     {
       name: "whatIsTheSweatySelfieContest1",
@@ -187,8 +187,13 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "fwwLivePageImages",
-      title: "FWW LIVE Page Images:",
+      name: "memberSweatySelfieImages2",
+      title: "These are all of the sweaty selfies used on the page:",
+      type: "inPageImage",
+    },
+    {
+      name: "fwwLivePageImages1",
+      title: "FWW LIVE Page Images Set 1:",
       type: "inPageImage",
     },
   ],

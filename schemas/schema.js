@@ -39,7 +39,7 @@ import earlyBirdSection from "./earlyBirdSection"
 
 import home from "./Pages/home"
 import about from "./Pages/about"
-import leadMagnetSalesPage from "./Pages/leadMagnetSalesPage"
+// import leadMagnetSalesPage from "./Pages/leadMagnetSalesPage"
 import programsStorePage from "./Pages/programsStorePage"
 import baseSalesPage from "./Pages/baseSalesPage"
 import planSmartEatRealSalesPage from "./Pages/planSmartEatRealSalesPage"
@@ -100,7 +100,7 @@ export default createSchema({
     earlyBirdSection,
     home,
     about,
-    leadMagnetSalesPage,
+    // leadMagnetSalesPage,
     programsStorePage,
     baseSalesPage,
     planSmartEatRealSalesPage,

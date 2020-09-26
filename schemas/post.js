@@ -27,12 +27,6 @@ export default {
         maxLength: 96,
       },
     },
-    // {
-    //   name: 'author',
-    //   title: 'Author:',
-    //   type: 'reference',
-    //   to: { type: 'author' },
-    // },
     {
       name: "mainPostImage",
       title: "Main Post Image:",
