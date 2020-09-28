@@ -89,6 +89,21 @@ export default {
       type: "string",
     },
     {
+      name: "sweatySelfieStep1",
+      title: "Sweaty Selfie Step 1:",
+      type: "string",
+    },
+    {
+      name: "sweatySelfieStep2",
+      title: "Sweaty Selfie Step 2:",
+      type: "string",
+    },
+    {
+      name: "sweatySelfieStep3",
+      title: "Sweaty Selfie Step 3:",
+      type: "string",
+    },
+    {
       name: "whatIsTheSweatySelfieContest1",
       title: "What Is The Sweaty Selfie Content Part 1:",
       description: "Introduce the Sweaty Selfie contest.",
@@ -144,36 +159,21 @@ export default {
     },
     {
       name: "signUpStep1",
-      title: "This is literally just... Step 1",
-      type: "string",
-    },
-    {
-      name: "signUpStep1BodyCopy",
-      title: "Body Copy of Step 1 Card:",
-      description: "Short and sweet of what step 1 is to get signed up.",
-      type: "copyBlock",
+      title: "Step 1 to Enter the Contest:",
+      type: "text",
+      rows: 3,
     },
     {
       name: "signUpStep2",
-      title: "This is literally just... Step 2",
-      type: "string",
-    },
-    {
-      name: "signUpStep2BodyCopy",
-      title: "Body Copy of Step 2 Card:",
-      description: "Short and sweet of what step 2 is to get signed up.",
-      type: "copyBlock",
+      title: "Step 2 to Enter the Contest:",
+      type: "text",
+      rows: 3,
     },
     {
       name: "signUpStep3",
-      title: "This is literally just... Step 3",
-      type: "string",
-    },
-    {
-      name: "signUpStep3BodyCopy",
-      title: "Body Copy of Step 3 Card:",
-      description: "Short and sweet of what step 3 is to get signed up.",
-      type: "copyBlock",
+      title: "Step 3 to Enter the Contest:",
+      type: "text",
+      rows: 3,
     },
     {
       name: "finalCallToActionCopy",

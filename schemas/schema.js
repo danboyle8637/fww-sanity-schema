@@ -39,7 +39,6 @@ import earlyBirdSection from "./earlyBirdSection"
 
 import home from "./Pages/home"
 import about from "./Pages/about"
-// import leadMagnetSalesPage from "./Pages/leadMagnetSalesPage"
 import programsStorePage from "./Pages/programsStorePage"
 import baseSalesPage from "./Pages/baseSalesPage"
 import planSmartEatRealSalesPage from "./Pages/planSmartEatRealSalesPage"
@@ -55,6 +54,7 @@ import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial"
 import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP"
 import fwwLiveSweatySelfieContent from "./Pages/fwwLiveSweatySelfieContest"
+import fwwLiveSweatySelfieThankYou from "./Pages/fwwLiveSweatySelfieThankYou"
 
 import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
 import transformationsPage from "./Pages/transformationsPage"
@@ -118,5 +118,6 @@ export default createSchema({
     transformationsPage,
     fwwLiveTrialThankYou,
     fwwLiveSweatySelfieContent,
+    fwwLiveSweatySelfieThankYou,
   ]),
 })
