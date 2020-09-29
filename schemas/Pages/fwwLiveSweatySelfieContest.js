@@ -74,21 +74,6 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "sweatySelfieEnterDeadline",
-      title: "Sweaty Selfie Enter Deadline:",
-      type: "string",
-    },
-    {
-      name: "sweatySelfieLastDaySelfie",
-      title: "Sweaty Selfie Last Day To Send In Selfie:",
-      type: "string",
-    },
-    {
-      name: "sweatySelfieChooseWinner",
-      title: "Sweaty Selfie Choose Winner Date:",
-      type: "string",
-    },
-    {
       name: "sweatySelfieStep1",
       title: "Sweaty Selfie Step 1:",
       type: "string",
@@ -174,12 +159,6 @@ export default {
       title: "Step 3 to Enter the Contest:",
       type: "text",
       rows: 3,
-    },
-    {
-      name: "finalCallToActionCopy",
-      title: "Finaly Call To Action Above Sign Up Form:",
-      description: "This is the final sign up now right above the actual form.",
-      type: "copyBlock",
     },
     {
       name: "memberSweatySelfieImages1",
