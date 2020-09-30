@@ -13,6 +13,12 @@ export default {
       type: "string",
     },
     {
+      name: "socialShareInformation",
+      title: "Social Share Information:",
+      description: "This is all of the social sharing info for social media.",
+      type: "socialShareBlock",
+    },
+    {
       name: "mainHeadline1",
       title: "Main Headline 1:",
       description:
