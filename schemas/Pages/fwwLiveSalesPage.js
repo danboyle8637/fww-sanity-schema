@@ -1,4 +1,12 @@
 import { FaFilm } from "react-icons/fa"
+import {
+  COPY_BLOCK_1,
+  COPY_BLOCK_2,
+  COPY_BLOCK_3,
+  COPY_BLOCK_4,
+  COPY_BLOCK_5,
+  COPY_BLOCK_6,
+} from "../constants"
 
 export default {
   name: "fwwLiveSalesPage",
@@ -51,39 +59,39 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "fwwLiveWorkoutsSection",
+      name: COPY_BLOCK_1,
       title: "FWW LIVE Workouts Section Bullets:",
       description:
         "These are about the workouts and the number of workouts a user gets.",
       type: "copyBlock",
     },
     {
-      name: "fwwLiveScheduleBullets",
+      name: COPY_BLOCK_2,
       title: "FWW LIVE Custom Schedule Bullets:",
       description:
         "These are about how you can build your own workout schedule with this program.",
       type: "copyBlock",
     },
     {
-      name: "fwwLiveResultsBullets",
+      name: COPY_BLOCK_3,
       title: "FWW LIVE Results Bullets:",
       description:
         "These are about getting results because we push your hard and have fun.",
       type: "copyBlock",
     },
     {
-      name: "fwwLiveCommunityBullets",
+      name: COPY_BLOCK_4,
       title: "FWW LIVE Community Bullets:",
       description: "These are about our amazing FWW LIVE community.",
       type: "copyBlock",
     },
     {
-      name: "fwwLiveScheduleCopy",
+      name: COPY_BLOCK_5,
       title: "FWW LIVE Schedule Copy",
       type: "copyBlock",
     },
     {
-      name: "callToActionCopy",
+      name: COPY_BLOCK_6,
       title: "Call to Action Copy:",
       description: "Tell them to click on a card and make it sound very easy.",
       type: "copyBlock",

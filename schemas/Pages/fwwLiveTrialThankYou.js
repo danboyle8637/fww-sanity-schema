@@ -1,4 +1,5 @@
 import FWWLiveLogo from "../../components/FWWLiveLogo"
+import { COPY_BLOCK_1, COPY_BLOCK_2 } from "../constants"
 
 export default {
   name: "fwwLiveTrialThankYou",
@@ -24,13 +25,13 @@ export default {
       to: [{ type: "backgroundImage" }],
     },
     {
-      name: "fwwLiveTrialSetup1",
+      name: COPY_BLOCK_1,
       title: "FWW LIVE Trial Trial Setup Part 1:",
       description: "Help them get setup so they can actually use this trial.",
       type: "copyBlock",
     },
     {
-      name: "fwwLiveTrialSetup2",
+      name: COPY_BLOCK_2,
       title: "FWW LIVE Trial Trial Setup Part 2:",
       description:
         "Make sure they know how to get in touch with you so they can use this trial.",

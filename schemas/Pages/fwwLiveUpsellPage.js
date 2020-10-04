@@ -1,4 +1,5 @@
 import FWWLiveUpsellIcon from "../../components/FWWLiveUpsellIcon"
+import { COPY_BLOCK_1, COPY_BLOCK_2 } from "../constants"
 
 export default {
   name: "fwwLiveUpsellPage",
@@ -23,7 +24,7 @@ export default {
       type: "number",
     },
     {
-      name: "fwwCallToAction",
+      name: COPY_BLOCK_1,
       title: "FWW LIVE Special Call To Action:",
       description: "Motivate them to take action on this special offer.",
       type: "copyBlock",
@@ -41,7 +42,7 @@ export default {
       to: [{ type: "priceCards" }],
     },
     {
-      name: "fwwMissedChance",
+      name: COPY_BLOCK_2,
       title: "FWW LIVE Special Missed Chance:",
       description: "Tell them sorry they missed their chance.",
       type: "copyBlock",

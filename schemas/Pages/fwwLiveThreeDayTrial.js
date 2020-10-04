@@ -1,4 +1,12 @@
 import FWWLiveLogo from "../../components/FWWLiveLogo"
+import {
+  COPY_BLOCK_1,
+  COPY_BLOCK_2,
+  COPY_BLOCK_3,
+  COPY_BLOCK_4,
+  COPY_BLOCK_5,
+  COPY_BLOCK_6,
+} from "../constants"
 
 export default {
   name: "fwwLiveThreeDayTrialLP",
@@ -48,7 +56,7 @@ export default {
       rows: 6,
     },
     {
-      name: "leadCopy",
+      name: COPY_BLOCK_1,
       title: "Lead In Copy:",
       description: "The lead to get them excited and to get them to read more.",
       type: "copyBlock",
@@ -74,7 +82,7 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "liveWorkoutsCopy",
+      name: COPY_BLOCK_2,
       title: "You Get Live Workouts Copy:",
       description: "Tell them about the LIVE workouts they are going to get.",
       type: "copyBlock",
@@ -94,21 +102,21 @@ export default {
       type: "inPageImage",
     },
     {
-      name: "workoutReplaysCopy",
+      name: COPY_BLOCK_3,
       title: "Workout Replays Copy:",
       description:
         "Tell them about the workout replays they are going to get access to.",
       type: "copyBlock",
     },
     {
-      name: "realCoachingCopy",
+      name: COPY_BLOCK_4,
       title: "Real Coaching Copy:",
       description:
         "Tell them about the real coaching they are going to get access to.",
       type: "copyBlock",
     },
     {
-      name: "classScheduleCopy",
+      name: COPY_BLOCK_5,
       title: "Class Schedule Copy:",
       description:
         "Just a simple headline and description to tell the user to click on the day.",
@@ -128,16 +136,10 @@ export default {
       type: "string",
     },
     {
-      name: "callToActionCopy",
+      name: COPY_BLOCK_6,
       title: "Call To Action Copy:",
       description:
         "Call the prospect to action. Get them motivated and excited to purchase right now.",
-      type: "copyBlock",
-    },
-    {
-      name: "afterTrialPricingCopy",
-      title: "After Trial Pricing Copy:",
-      description: "Explain... I want no surpises so here is the pricing.",
       type: "copyBlock",
     },
   ],
