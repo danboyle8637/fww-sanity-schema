@@ -1,4 +1,14 @@
 import LiveLogo from "../../components/FWWLiveLogo"
+import {
+  COPY_BLOCK_1,
+  COPY_BLOCK_2,
+  COPY_BLOCK_3,
+  COPY_BLOCK_4,
+  COPY_BLOCK_5,
+  COPY_BLOCK_6,
+  COPY_BLOCK_7,
+  COPY_BLOCK_8,
+} from "../constants"
 
 export default {
   name: "fwwLiveSweatySelfieContent",
@@ -69,7 +79,7 @@ export default {
       type: "number",
     },
     {
-      name: "sweatySelfiePrizePackBulletPoints",
+      name: COPY_BLOCK_1,
       title: "FWW Live Sweaty Selfie Prize Pack Bullets:",
       description: "The bullet points of what the winner gets.",
       type: "copyBlock",
@@ -95,13 +105,13 @@ export default {
       type: "string",
     },
     {
-      name: "whatIsTheSweatySelfieContest1",
+      name: COPY_BLOCK_2,
       title: "What Is The Sweaty Selfie Content Part 1:",
       description: "Introduce the Sweaty Selfie contest.",
       type: "copyBlock",
     },
     {
-      name: "whatIsFWWLive",
+      name: COPY_BLOCK_3,
       title: "What Is FWW Live... The Elevator Pitch:",
       description: "Give our short sentance elevator pitch.",
       type: "copyBlock",
@@ -112,32 +122,32 @@ export default {
       type: "string",
     },
     {
-      name: "reason1LiveWorkouts",
+      name: COPY_BLOCK_4,
       title: "Reason 1 Live Class Based Workouts:",
       description: "Explain our amazing LIVE workout classes.",
       type: "copyBlock",
     },
     {
-      name: "reason2LiveWorkouts",
+      name: COPY_BLOCK_5,
       title: "Reason 2 Our Class Replays:",
       description: "Explain our class replays in the Facebook Group.",
       type: "copyBlock",
     },
     {
-      name: "reason3LiveWorkouts",
+      name: COPY_BLOCK_6,
       title: "Reason 3 Our Training Plans:",
       description:
         "Explain our training plans so you aren't just being random.",
       type: "copyBlock",
     },
     {
-      name: "reason4LiveWorkouts",
+      name: COPY_BLOCK_7,
       title: "Reason 4 Our Private Coaching:",
       description: "Explain how we actually coach our members to succeed.",
       type: "copyBlock",
     },
     {
-      name: "reason5LiveWorkouts",
+      name: COPY_BLOCK_8,
       title: "Reason 5 Our Amazing Community:",
       description: "Explain are amazing members and how cool they are.",
       type: "copyBlock",

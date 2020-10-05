@@ -1,4 +1,5 @@
 import FWWLiveLogo from "../../components/FWWLiveLogo"
+import { COPY_BLOCK_1, COPY_BLOCK_2 } from "../constants"
 
 export default {
   name: "fwwLiveSweatySelfieThankYou",
@@ -29,14 +30,14 @@ export default {
       type: "number",
     },
     {
-      name: "fwwLiveFacebookInvite",
+      name: COPY_BLOCK_1,
       title: "FWW LIVE Sweaty Selfie Step 2:",
       description:
         "Make sure they go to the Facebook Group and request their invite.",
       type: "copyBlock",
     },
     {
-      name: "fwwLiveDownloadTrainingPlan",
+      name: COPY_BLOCK_2,
       title: "FWW LIVE Download Training Plan Step 3:",
       description:
         "Make sure you get them to download and use the training plan.",
