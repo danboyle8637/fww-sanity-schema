@@ -6,6 +6,7 @@ import {
   COPY_BLOCK_4,
   COPY_BLOCK_5,
   COPY_BLOCK_6,
+  BACKGROUND_IMAGE_1,
 } from "../constants"
 
 export default {
@@ -33,7 +34,7 @@ export default {
       type: "string",
     },
     {
-      name: "headlineBackground",
+      name: BACKGROUND_IMAGE_1,
       title: "Headline Background:",
       type: "reference",
       to: [{ type: "backgroundImage" }],

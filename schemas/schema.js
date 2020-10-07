@@ -59,6 +59,9 @@ import fwwLiveSweatySelfieThankYou from "./Pages/fwwLiveSweatySelfieThankYou"
 import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
 import transformationsPage from "./Pages/transformationsPage"
 
+// ? Documents
+import fwwLiveSweatySelfieUpload from "./Pages/fwwLiveSweatySelfieUpload"
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -100,7 +103,6 @@ export default createSchema({
     earlyBirdSection,
     home,
     about,
-    // leadMagnetSalesPage,
     programsStorePage,
     baseSalesPage,
     planSmartEatRealSalesPage,
@@ -119,5 +121,6 @@ export default createSchema({
     fwwLiveTrialThankYou,
     fwwLiveSweatySelfieContent,
     fwwLiveSweatySelfieThankYou,
+    fwwLiveSweatySelfieUpload,
   ]),
 })

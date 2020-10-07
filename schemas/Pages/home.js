@@ -1,5 +1,5 @@
 import { FaHome } from "react-icons/fa"
-import { COPY_BLOCK_1, COPY_BLOCK_2 } from "../constants"
+import { COPY_BLOCK_1, COPY_BLOCK_2, BACKGROUND_IMAGE_1 } from "../constants"
 
 export default {
   name: "homePage",
@@ -15,7 +15,7 @@ export default {
       type: "string",
     },
     {
-      name: "headlineSectionImage",
+      name: BACKGROUND_IMAGE_1,
       title: "Headline Section Image",
       type: "reference",
       to: [{ type: "backgroundImage" }],
@@ -45,12 +45,6 @@ export default {
       name: "nutritionSectionImage",
       title: "Nutrition Section Image",
       type: "inPageImage",
-    },
-    {
-      name: "privateCoachingSectionImage",
-      title: "Private Coaching Image",
-      type: "reference",
-      to: [{ type: "backgroundImage" }],
     },
   ],
 }

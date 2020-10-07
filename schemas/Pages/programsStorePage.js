@@ -7,6 +7,7 @@ import {
   TESTIMONIAL_3,
   TESTIMONIAL_4,
   TESTIMONIAL_5,
+  BACKGROUND_IMAGE_1,
 } from "../constants"
 
 export default {
@@ -26,7 +27,7 @@ export default {
       type: "string",
     },
     {
-      name: "headlineSectionImage",
+      name: BACKGROUND_IMAGE_1,
       title: "Headline Section Image",
       type: "reference",
       to: [{ type: "backgroundImage" }],

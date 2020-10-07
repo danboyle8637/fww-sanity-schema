@@ -1,4 +1,5 @@
 import TransformationIcon from "../../components/TransformationsIcon"
+import { COPY_BLOCK_1 } from "../constants"
 
 export default {
   name: "transformationsPage",
@@ -19,7 +20,7 @@ export default {
       type: "socialShareBlock",
     },
     {
-      name: "transformationsCopy",
+      name: COPY_BLOCK_1,
       title: "Transformations Copy:",
       description:
         "Give context to these transformations and how they fit our fitness mission.",

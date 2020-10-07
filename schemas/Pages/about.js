@@ -6,6 +6,10 @@ import {
   TESTIMONIAL_1,
   TESTIMONIAL_2,
   TESTIMONIAL_3,
+  BACKGROUND_IMAGE_1,
+  BACKGROUND_IMAGE_2,
+  BACKGROUND_IMAGE_3,
+  BACKGROUND_IMAGE_4,
 } from "../constants"
 
 export default {
@@ -22,7 +26,7 @@ export default {
       type: "string",
     },
     {
-      name: "headlineSectionImage",
+      name: BACKGROUND_IMAGE_1,
       title: "Headline Section Image",
       type: "reference",
       to: [{ type: "backgroundImage" }],
@@ -63,19 +67,19 @@ export default {
       type: "copyBlock",
     },
     {
-      name: "kindalMobileBackgroundImage",
+      name: BACKGROUND_IMAGE_2,
       title: "Kindal Mobile Background Image:",
       type: "reference",
       to: [{ type: "backgroundImage" }],
     },
     {
-      name: "danMobileBackgroundImage",
+      name: BACKGROUND_IMAGE_3,
       title: "Dan Mobile Background Image:",
       type: "reference",
       to: [{ type: "backgroundImage" }],
     },
     {
-      name: "kindalDanTabletLaptopBackgroundImage",
+      name: BACKGROUND_IMAGE_4,
       title: "Kindal and Dan Tablet/Laptop Background Image:",
       type: "reference",
       to: [{ type: "backgroundImage" }],

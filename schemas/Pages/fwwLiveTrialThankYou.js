@@ -1,5 +1,5 @@
 import FWWLiveLogo from "../../components/FWWLiveLogo"
-import { COPY_BLOCK_1, COPY_BLOCK_2 } from "../constants"
+import { COPY_BLOCK_1, COPY_BLOCK_2, BACKGROUND_IMAGE_1 } from "../constants"
 
 export default {
   name: "fwwLiveTrialThankYou",
@@ -19,7 +19,7 @@ export default {
       type: "string",
     },
     {
-      name: "headlineBackground",
+      name: BACKGROUND_IMAGE_1,
       title: "Headline Background:",
       type: "reference",
       to: [{ type: "backgroundImage" }],

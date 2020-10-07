@@ -4,6 +4,7 @@ import {
   COPY_BLOCK_2,
   COPY_BLOCK_3,
   COPY_BLOCK_4,
+  BACKGROUND_IMAGE_1,
 } from "../constants"
 
 export default {
@@ -31,7 +32,7 @@ export default {
       type: "socialShareBlock",
     },
     {
-      name: "headlineBackground",
+      name: BACKGROUND_IMAGE_1,
       title: "Headline Background:",
       type: "reference",
       to: [{ type: "backgroundImage" }],

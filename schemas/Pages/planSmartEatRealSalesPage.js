@@ -9,6 +9,11 @@ import {
   COPY_BLOCK_7,
   COPY_BLOCK_8,
   COPY_BLOCK_9,
+  BACKGROUND_IMAGE_1,
+  TESTIMONIAL_1,
+  TESTIMONIAL_2,
+  TESTIMONIAL_3,
+  TESTIMONIAL_4,
 } from "../constants"
 
 export default {
@@ -76,7 +81,7 @@ export default {
       type: "copyBlock",
     },
     {
-      name: "programIntroductionBackground",
+      name: BACKGROUND_IMAGE_1,
       title: "Program Introduction Background:",
       type: "reference",
       to: [{ type: "backgroundImage" }],
@@ -186,7 +191,7 @@ export default {
       to: [{ type: "priceCards" }],
     },
     {
-      name: "nutritionTestimonial1",
+      name: TESTIMONIAL_1,
       title: "Nutrition Testimonial:",
       description:
         "Make sure this testimonial has to do with Plan Smart Eat Real.",
@@ -194,7 +199,7 @@ export default {
       to: [{ type: "testimonialCard" }],
     },
     {
-      name: "nutritionTestimonial2",
+      name: TESTIMONIAL_2,
       title: "Nutrition Testimonial:",
       description:
         "Make sure this testimonial has to do with Plan Smart Eat Real.",
@@ -202,7 +207,7 @@ export default {
       to: [{ type: "testimonialCard" }],
     },
     {
-      name: "nutritionTestimonial3",
+      name: TESTIMONIAL_3,
       title: "Nutrition Testimonial:",
       description:
         "Make sure this testimonial has to do with Plan Smart Eat Real.",
@@ -210,7 +215,7 @@ export default {
       to: [{ type: "testimonialCard" }],
     },
     {
-      name: "nutritionTestimonial4",
+      name: TESTIMONIAL_4,
       title: "Nutrition Testimonial:",
       description:
         "Make sure this testimonial has to do with Plan Smart Eat Real.",
