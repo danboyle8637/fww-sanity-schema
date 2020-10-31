@@ -19,14 +19,9 @@ export default {
       of: [{ type: "string" }],
       options: {
         list: [
-          { title: "FWW Monthly", value: "fwwMonthly" },
-          { title: "FWW Reset", value: "fwwReset" },
-          { title: "Open Workout", value: "openWorkout" },
-          { title: "Open Q and A", value: "openQA" },
           { title: "Plan Smart Eat Real", value: "planSmartEatReal" },
           { title: "Nutrition Coaching", value: "privateNutritionCoaching" },
           { title: "FWW LIVE", value: "fwwLive" },
-          { title: "Sweaty Selfie", value: "sweatySelfie" },
         ],
       },
     },
