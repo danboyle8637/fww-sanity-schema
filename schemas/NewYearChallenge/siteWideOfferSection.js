@@ -1,7 +1,7 @@
 import { COPY_BLOCK_1, HEADINE_LINE_1, STRING_1 } from "../constants"
 
 export default {
-  name: "newYearSiteWideOfferSections",
+  name: "siteWideOfferSection",
   title: "Site Wide Offer Sections",
   type: "object",
   fields: [

@@ -30,7 +30,7 @@ export default {
       name: STRING_2,
       title: "Card Slug",
       description: "Make sure you check the path for accuracy.",
-      type: "url",
+      type: "slug",
     },
     {
       name: DESCRIPTION_1,

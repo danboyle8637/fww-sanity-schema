@@ -6,6 +6,7 @@ import {
   HEADINE_LINE_3,
   NUMBER_1,
   STRING_1,
+  SITE_WIDE_OFFER_SECTION,
 } from "../constants"
 
 export default {
@@ -30,7 +31,8 @@ export default {
     {
       name: BACKGROUND_IMAGE_1,
       title: "Header Background Image",
-      type: "backgroundImage",
+      type: "reference",
+      to: [{ type: "backgroundImage" }],
     },
     {
       name: NUMBER_1,

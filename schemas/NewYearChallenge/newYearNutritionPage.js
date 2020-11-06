@@ -1,4 +1,13 @@
 import FWWLiveLogo from "../../components/FWWLiveLogo"
+import {
+  HEADINE_LINE_1,
+  HEADINE_LINE_2,
+  BACKGROUND_IMAGE_1,
+  NUMBER_1,
+  STRING_1,
+  HEADINE_LINE_3,
+  SITE_WIDE_OFFER_SECTION,
+} from "../constants"
 
 export default {
   name: "fwwLiveNewYearNutritionPage",
@@ -22,7 +31,8 @@ export default {
     {
       name: BACKGROUND_IMAGE_1,
       title: "Header Background Image",
-      type: "backgroundImage",
+      type: "reference",
+      to: [{ type: "backgroundImage" }],
     },
     {
       name: NUMBER_1,
@@ -42,6 +52,12 @@ export default {
       description:
         "The headline that is right above the beginning of the feature and benefit list.",
       type: "string",
+    },
+    {
+      name: SITE_WIDE_OFFER_SECTION,
+      title: "Offer to Join the Challenge",
+      description: "Create copy that is unique to what is on this page.",
+      type: "siteWideOfferSection",
     },
   ],
 }

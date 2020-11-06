@@ -62,6 +62,13 @@ import fwwLiveSweatySelfies from "./Images/fwwLiveSweatySelfies"
 
 // ? New Year Challege
 import newYearMiniSiteCard from "./Cards/newYearMiniSiteCard"
+import newYearHomePage from "./NewYearChallenge/newYearHomePage"
+import newYearAboutPage from "./NewYearChallenge/newYearAboutPage"
+import newYearFeaturePage from "./NewYearChallenge/newYearFeaturesPage"
+import newYearFeatureSection from "./NewYearChallenge/newYearFeatureSection"
+import newYearNutritionPage from "./NewYearChallenge/newYearNutritionPage"
+import newYearPricingPage from "./NewYearChallenge/newYearPricingPage"
+import siteWideOfferSection from "./NewYearChallenge/siteWideOfferSection"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -122,5 +129,12 @@ export default createSchema({
     fwwLiveTrialThankYou,
     fwwLiveSweatySelfies,
     newYearMiniSiteCard,
+    newYearHomePage,
+    newYearAboutPage,
+    newYearFeaturePage,
+    newYearFeatureSection,
+    newYearNutritionPage,
+    newYearPricingPage,
+    siteWideOfferSection,
   ]),
 })

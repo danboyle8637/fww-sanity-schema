@@ -1,5 +1,20 @@
 import FWWLiveLogo from "../../components/FWWLiveLogo"
-import { HEADINE_LINE_4 } from "../constants"
+import {
+  HEADINE_LINE_4,
+  SITE_WIDE_OFFER_SECTION,
+  HEADINE_LINE_1,
+  HEADINE_LINE_2,
+  BACKGROUND_IMAGE_1,
+  NUMBER_1,
+  STRING_1,
+  STRING_2,
+  STRING_3,
+  STRING_4,
+  STRING_5,
+  STRING_6,
+  STRING_7,
+  HEADINE_LINE_3,
+} from "../constants"
 
 export default {
   name: "fwwLiveNewYearFeaturesPage",
@@ -24,7 +39,8 @@ export default {
     {
       name: BACKGROUND_IMAGE_1,
       title: "Header Background Image",
-      type: "backgroundImage",
+      type: "reference",
+      to: [{ type: "backgroundImage" }],
     },
     {
       name: NUMBER_1,

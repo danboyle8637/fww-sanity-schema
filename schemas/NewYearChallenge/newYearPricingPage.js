@@ -5,6 +5,8 @@ import {
   HEADINE_LINE_2,
   PRICE_CARD_1,
   PRICE_CARD_2,
+  PRICE_CARD_3,
+  NUMBER_1,
 } from "../constants"
 
 export default {

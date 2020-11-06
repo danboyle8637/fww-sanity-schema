@@ -1,15 +1,17 @@
+import FWWLiveLogo from "../../components/FWWLiveLogo"
 import {
   COPY_BLOCK_1,
   HEADINE_LINE_1,
   STANDARD_IMAGE_1,
   STRING_1,
-  STRING_2,
+  NUMBER_1,
 } from "../constants"
 
 /*
 # Button Text Possibilities 
 - I'm Ready to Do This
 - Reserve My Spot Now
+- Send Me The Plan
 - I'm Ready To Workout
 - I'm Ready to Eat Healthy
 - Coaching Too? I'm In...
@@ -19,7 +21,8 @@ import {
 export default {
   name: "newYearFeatureSection",
   title: "New Year Feature Section",
-  type: "object",
+  icon: FWWLiveLogo,
+  type: "document",
   fields: [
     {
       name: HEADINE_LINE_1,
