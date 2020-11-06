@@ -53,14 +53,15 @@ import fwwLiveTrialThankYou from "./Pages/fwwLiveTrialThankYou"
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial"
 import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP"
-import fwwLiveSweatySelfieContent from "./Pages/fwwLiveSweatySelfieContest"
-import fwwLiveSweatySelfieThankYou from "./Pages/fwwLiveSweatySelfieThankYou"
 
 import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage"
 import transformationsPage from "./Pages/transformationsPage"
 
-// ? Documents
-import fwwLiveSweatySelfieUpload from "./Pages/fwwLiveSweatySelfieUpload"
+// ? FWW LIVE
+import fwwLiveSweatySelfies from "./Images/fwwLiveSweatySelfies"
+
+// ? New Year Challege
+import newYearMiniSiteCard from "./Cards/newYearMiniSiteCard"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -119,8 +120,7 @@ export default createSchema({
     fwwLiveTestimonialLP,
     transformationsPage,
     fwwLiveTrialThankYou,
-    fwwLiveSweatySelfieContent,
-    fwwLiveSweatySelfieThankYou,
-    fwwLiveSweatySelfieUpload,
+    fwwLiveSweatySelfies,
+    newYearMiniSiteCard,
   ]),
 })
