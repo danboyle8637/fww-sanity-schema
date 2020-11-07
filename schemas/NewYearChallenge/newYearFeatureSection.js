@@ -5,18 +5,8 @@ import {
   STANDARD_IMAGE_1,
   STRING_1,
   NUMBER_1,
+  STRING_2,
 } from "../constants"
-
-/*
-# Button Text Possibilities 
-- I'm Ready to Do This
-- Reserve My Spot Now
-- Send Me The Plan
-- I'm Ready To Workout
-- I'm Ready to Eat Healthy
-- Coaching Too? I'm In...
-- Click to Workout LIVE
-*/
 
 export default {
   name: "newYearFeatureSection",
@@ -36,6 +26,20 @@ export default {
       description:
         "This is optional because not all feature sections will use an image.",
       type: "inPageImage",
+    },
+    {
+      name: STRING_2,
+      title: "What Feature Page?",
+      description:
+        "What feature page is this going to go on. This will help with querying the data.",
+      type: "array",
+      of: [{ type: "string" }],
+      options: {
+        list: [
+          { title: "What You Get Page", value: "whatYouGetPage" },
+          { title: "Plan Smart Eat Real Page", value: "planSmartEatRealPage" },
+        ],
+      },
     },
     {
       name: NUMBER_1,
