@@ -7,6 +7,7 @@ import {
   PRICE_CARD_2,
   PRICE_CARD_3,
   NUMBER_1,
+  STRING_1,
 } from "../constants"
 
 export default {
@@ -16,6 +17,11 @@ export default {
   fieldsets: [{ name: "pricingCards", title: "Pricing Cards" }],
   type: "document",
   fields: [
+    {
+      name: STRING_1,
+      title: "Dev Title",
+      type: "string",
+    },
     {
       name: NUMBER_1,
       title: "Pricing Sales Video Id",
