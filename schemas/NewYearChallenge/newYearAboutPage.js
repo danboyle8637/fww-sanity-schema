@@ -27,6 +27,8 @@ import {
   DESCRIPTION_7,
   DESCRIPTION_8,
   SITE_WIDE_OFFER_SECTION,
+  SOCIAL_SHARE_INFO,
+  HEADINE_LINE_6,
 } from "../constants"
 
 export default {
@@ -41,8 +43,14 @@ export default {
   fields: [
     {
       name: HEADINE_LINE_1,
-      title: "About Page Main Headline",
+      title: "About Page Main Headline 1",
       description: "This is the main page headline.",
+      type: "string",
+    },
+    {
+      name: HEADINE_LINE_6,
+      title: "About Page Headline 2",
+      description: "This is going to be to emphasis Comeback",
       type: "string",
     },
     {
@@ -51,6 +59,12 @@ export default {
       description:
         "This is the page subheadline. Most likely just the name of the challenge.",
       type: "string",
+    },
+    {
+      name: SOCIAL_SHARE_INFO,
+      title: "Social Share Information:",
+      description: "This is all of the social sharing info for social media.",
+      type: "socialShareBlock",
     },
     {
       name: BACKGROUND_IMAGE_1,
@@ -113,18 +127,6 @@ export default {
       fieldset: "certs",
     },
     {
-      name: STRING_7,
-      title: "Trainer Certification 1",
-      type: "string",
-      fieldset: "certs",
-    },
-    {
-      name: STRING_8,
-      title: "Trainer Certification 1",
-      type: "string",
-      fieldset: "certs",
-    },
-    {
       name: HEADINE_LINE_4,
       title: "Publications Headline",
       description:
@@ -181,42 +183,6 @@ export default {
     },
     {
       name: DESCRIPTION_4,
-      title: "Images from Life Description",
-      description:
-        "A short one sentance description of what the picture is about.",
-      type: "text",
-      rows: 5,
-      fieldset: "fitDescriptions",
-    },
-    {
-      name: DESCRIPTION_5,
-      title: "Images from Life Description",
-      description:
-        "A short one sentance description of what the picture is about.",
-      type: "text",
-      rows: 5,
-      fieldset: "fitDescriptions",
-    },
-    {
-      name: DESCRIPTION_6,
-      title: "Images from Life Description",
-      description:
-        "A short one sentance description of what the picture is about.",
-      type: "text",
-      rows: 5,
-      fieldset: "fitDescriptions",
-    },
-    {
-      name: DESCRIPTION_7,
-      title: "Images from Life Description",
-      description:
-        "A short one sentance description of what the picture is about.",
-      type: "text",
-      rows: 5,
-      fieldset: "fitDescriptions",
-    },
-    {
-      name: DESCRIPTION_8,
       title: "Images from Life Description",
       description:
         "A short one sentance description of what the picture is about.",

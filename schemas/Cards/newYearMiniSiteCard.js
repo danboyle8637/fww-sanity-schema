@@ -3,6 +3,7 @@ import {
   CARD_IMAGE_1,
   DESCRIPTION_1,
   HEADINE_LINE_1,
+  NUMBER_1,
   STRING_1,
   STRING_2,
 } from "../constants"
@@ -25,6 +26,11 @@ export default {
       title: "Card Image",
       description: "This is card image at 1200x480",
       type: "cardImage",
+    },
+    {
+      name: NUMBER_1,
+      title: "Card Order",
+      type: "number",
     },
     {
       name: STRING_2,

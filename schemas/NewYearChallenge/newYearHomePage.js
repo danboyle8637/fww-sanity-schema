@@ -7,6 +7,7 @@ import {
   NUMBER_1,
   STRING_1,
   SITE_WIDE_OFFER_SECTION,
+  HEADINE_LINE_4,
 } from "../constants"
 
 export default {
@@ -17,8 +18,14 @@ export default {
   fields: [
     {
       name: HEADINE_LINE_1,
-      title: "Page Headline",
-      description: "This is the main page headline.",
+      title: "Page Headline 1",
+      description: "This is the main page headline part 1.",
+      type: "string",
+    },
+    {
+      name: HEADINE_LINE_4,
+      title: "Page Headline 2",
+      description: "This is the main page headline... Comeback.",
       type: "string",
     },
     {
