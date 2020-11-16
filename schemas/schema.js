@@ -69,6 +69,7 @@ import newYearFeatureSection from "./NewYearChallenge/newYearFeatureSection"
 import newYearNutritionPage from "./NewYearChallenge/newYearNutritionPage"
 import newYearPricingPage from "./NewYearChallenge/newYearPricingPage"
 import newYearEarlyBirdPage from "./NewYearChallenge/newYearEarlyBirdPage"
+import newYearSuccessPage from "./NewYearChallenge/newYearSuccessPage"
 import siteWideOfferSection from "./NewYearChallenge/siteWideOfferSection"
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -136,6 +137,7 @@ export default createSchema({
     newYearFeatureSection,
     newYearNutritionPage,
     newYearPricingPage,
+    newYearSuccessPage,
     siteWideOfferSection,
     newYearEarlyBirdPage,
   ]),

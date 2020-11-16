@@ -14,6 +14,8 @@ import {
   STRING_6,
   STRING_7,
   HEADINE_LINE_3,
+  HEADINE_LINE_5,
+  SOCIAL_SHARE_INFO,
 } from "../constants"
 
 export default {
@@ -25,8 +27,14 @@ export default {
   fields: [
     {
       name: HEADINE_LINE_1,
-      title: "Page Headline",
+      title: "Page Headline 1",
       description: "This is the main page headline.",
+      type: "string",
+    },
+    {
+      name: HEADINE_LINE_5,
+      title: "Page Headline 2",
+      description: "This is going to be Yours",
       type: "string",
     },
     {
@@ -35,6 +43,12 @@ export default {
       description:
         "This is the page subheadline. Most likely just the name of the challenge.",
       type: "string",
+    },
+    {
+      name: SOCIAL_SHARE_INFO,
+      title: "Social Share Information:",
+      description: "This is all of the social sharing info for social media.",
+      type: "socialShareBlock",
     },
     {
       name: BACKGROUND_IMAGE_1,

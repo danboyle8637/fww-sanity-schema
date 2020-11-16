@@ -8,6 +8,8 @@ import {
   PRICE_CARD_3,
   NUMBER_1,
   STRING_1,
+  STRING_2,
+  DESCRIPTION_2,
 } from "../constants"
 
 export default {
@@ -33,6 +35,14 @@ export default {
       description:
         "This is probably just going to be Early Bird Prcing... but maybe we will change it.",
       type: "string",
+    },
+    {
+      name: DESCRIPTION_2,
+      title: "Early Bird Description",
+      description:
+        "Just explain when they sign up early... they get to come into the group early.",
+      type: "text",
+      rows: 5,
     },
     {
       name: PRICE_CARD_1,

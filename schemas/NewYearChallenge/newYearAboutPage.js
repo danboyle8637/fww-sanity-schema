@@ -134,6 +134,13 @@ export default {
       type: "string",
     },
     {
+      name: STRING_7,
+      title: "Publications Description",
+      description: "Explain why these logos are showing here.",
+      type: "text",
+      rows: 5,
+    },
+    {
       name: STANDARD_IMAGE_2,
       title: "Publications Logos",
       description:
