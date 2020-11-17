@@ -6,6 +6,7 @@ import {
   STRING_1,
   NUMBER_1,
   STRING_2,
+  STRING_3,
 } from "../constants"
 
 export default {
@@ -18,6 +19,12 @@ export default {
       name: HEADINE_LINE_1,
       title: "Feature Benefit Headline",
       description: "Make sure this is a benefit and solves a problem.",
+      type: "string",
+    },
+    {
+      name: STRING_3,
+      title: "Benefit Card Short Description",
+      description: "A very short impact word description for the benefit card.",
       type: "string",
     },
     {
