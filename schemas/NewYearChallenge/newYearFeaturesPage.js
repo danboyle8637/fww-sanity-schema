@@ -7,12 +7,6 @@ import {
   BACKGROUND_IMAGE_1,
   NUMBER_1,
   STRING_1,
-  STRING_2,
-  STRING_3,
-  STRING_4,
-  STRING_5,
-  STRING_6,
-  STRING_7,
   HEADINE_LINE_3,
   HEADINE_LINE_5,
   SOCIAL_SHARE_INFO,
@@ -74,61 +68,6 @@ export default {
       description:
         "The headline that is right above the beginning of the feature and benefit list.",
       type: "string",
-    },
-    {
-      name: HEADINE_LINE_4,
-      title: "Plus More Headline",
-      description:
-        "The headline that will list even more great things they get if they join.",
-      type: "string",
-    },
-    {
-      name: STRING_2,
-      title: "Plus More Benefit 1",
-      description:
-        "A feature with a possible benefit if you can fit it in there.",
-      type: "string",
-      fieldset: "plusMore",
-    },
-    {
-      name: STRING_3,
-      title: "Plus More Benefit 2",
-      description:
-        "A feature with a possible benefit if you can fit it in there.",
-      type: "string",
-      fieldset: "plusMore",
-    },
-    {
-      name: STRING_4,
-      title: "Plus More Benefit 3",
-      description:
-        "A feature with a possible benefit if you can fit it in there.",
-      type: "string",
-      fieldset: "plusMore",
-    },
-    {
-      name: STRING_5,
-      title: "Plus More Benefit 4",
-      description:
-        "A feature with a possible benefit if you can fit it in there.",
-      type: "string",
-      fieldset: "plusMore",
-    },
-    {
-      name: STRING_6,
-      title: "Plus More Benefit 5",
-      description:
-        "A feature with a possible benefit if you can fit it in there.",
-      type: "string",
-      fieldset: "plusMore",
-    },
-    {
-      name: STRING_7,
-      title: "Plus More Benefit 6",
-      description:
-        "A feature with a possible benefit if you can fit it in there.",
-      type: "string",
-      fieldset: "plusMore",
     },
     {
       name: SITE_WIDE_OFFER_SECTION,

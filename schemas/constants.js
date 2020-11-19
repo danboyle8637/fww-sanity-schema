@@ -53,6 +53,7 @@ export const HEADINE_LINE_3 = "headline3"
 export const HEADINE_LINE_4 = "headline4"
 export const HEADINE_LINE_5 = "headline5"
 export const HEADINE_LINE_6 = "headline6"
+export const HEADINE_LINE_7 = "headline7"
 
 export const STRING_1 = "string1"
 export const STRING_2 = "string2"

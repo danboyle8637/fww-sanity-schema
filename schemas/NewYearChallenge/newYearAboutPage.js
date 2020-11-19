@@ -5,6 +5,8 @@ import {
   HEADINE_LINE_3,
   HEADINE_LINE_4,
   HEADINE_LINE_5,
+  HEADINE_LINE_6,
+  HEADINE_LINE_7,
   BACKGROUND_IMAGE_1,
   STANDARD_IMAGE_1,
   STANDARD_IMAGE_2,
@@ -22,13 +24,9 @@ import {
   DESCRIPTION_2,
   DESCRIPTION_3,
   DESCRIPTION_4,
-  DESCRIPTION_5,
-  DESCRIPTION_6,
-  DESCRIPTION_7,
-  DESCRIPTION_8,
   SITE_WIDE_OFFER_SECTION,
   SOCIAL_SHARE_INFO,
-  HEADINE_LINE_6,
+  STANDARD_IMAGE_4,
 } from "../constants"
 
 export default {
@@ -155,10 +153,29 @@ export default {
       type: "string",
     },
     {
+      name: HEADINE_LINE_7,
+      title: "Fitness Images from Life Headline",
+      type: "string",
+    },
+    {
+      name: STRING_8,
+      title: "Fitness Images from Life Description",
+      description: "Explain why these images are here.",
+      type: "text",
+      rows: 5,
+    },
+    {
       name: STANDARD_IMAGE_3,
-      title: "Fitness Images from Our Life",
+      title: "Fitness Images from Our Life - Mobile",
       description:
-        "These are cool and fun pictures from our life. Try to get some with clients and some from cool moments.",
+        "These are cool and fun pictures from our life. These are the mobile images.",
+      type: "inPageImage",
+    },
+    {
+      name: STANDARD_IMAGE_4,
+      title: "Fitnes Images from Our Life - Above Mobile",
+      description:
+        "These are cool and fun pictures from our life. These are the above mobile images.",
       type: "inPageImage",
     },
     {
