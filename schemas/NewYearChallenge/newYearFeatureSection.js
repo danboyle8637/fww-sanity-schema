@@ -1,3 +1,4 @@
+import { number } from "prop-types"
 import FWWLiveLogo from "../../components/FWWLiveLogo"
 import {
   COPY_BLOCK_1,
@@ -7,6 +8,7 @@ import {
   NUMBER_1,
   STRING_2,
   STRING_3,
+  NUMBER_2,
 } from "../constants"
 
 export default {
@@ -20,6 +22,11 @@ export default {
       title: "Feature Benefit Headline",
       description: "Make sure this is a benefit and solves a problem.",
       type: "string",
+    },
+    {
+      name: NUMBER_2,
+      title: "Order",
+      type: "number",
     },
     {
       name: STRING_3,

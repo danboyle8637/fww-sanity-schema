@@ -2,10 +2,13 @@ import FWWLiveLogo from "../../components/FWWLiveLogo"
 import {
   HEADINE_LINE_1,
   HEADINE_LINE_2,
+  HEADINE_LINE_3,
+  HEADINE_LINE_4,
   BACKGROUND_IMAGE_1,
   NUMBER_1,
   STRING_1,
-  HEADINE_LINE_3,
+  SOCIAL_SHARE_INFO,
+  STANDARD_IMAGE_1,
   SITE_WIDE_OFFER_SECTION,
 } from "../constants"
 
@@ -22,11 +25,23 @@ export default {
       type: "string",
     },
     {
+      name: HEADINE_LINE_3,
+      title: "Page Headline 2",
+      description: "This is going to be Healthy",
+      type: "string",
+    },
+    {
       name: HEADINE_LINE_2,
       title: "Page Sub-Headline",
       description:
         "This is the page subheadline. Most likely just the name of the challenge.",
       type: "string",
+    },
+    {
+      name: SOCIAL_SHARE_INFO,
+      title: "Social Share Information:",
+      description: "This is all of the social sharing info for social media.",
+      type: "socialShareBlock",
     },
     {
       name: BACKGROUND_IMAGE_1,
@@ -47,11 +62,16 @@ export default {
       type: "string",
     },
     {
-      name: HEADINE_LINE_3,
-      title: "Feature List Headline",
-      description:
-        "The headline that is right above the beginning of the feature and benefit list.",
+      name: HEADINE_LINE_4,
+      title: "Example Recipes Headline",
       type: "string",
+    },
+    {
+      name: STANDARD_IMAGE_1,
+      title: "Recipe Images",
+      description:
+        "This is optional because not all feature sections will use an image.",
+      type: "inPageImage",
     },
     {
       name: SITE_WIDE_OFFER_SECTION,
