@@ -3,12 +3,14 @@ import {
   DESCRIPTION_1,
   HEADINE_LINE_1,
   HEADINE_LINE_2,
+  HEADINE_LINE_3,
+  HEADINE_LINE_4,
   PRICE_CARD_1,
   PRICE_CARD_2,
   PRICE_CARD_3,
   NUMBER_1,
-  STRING_1,
-  STRING_2,
+  SOCIAL_SHARE_INFO,
+  BACKGROUND_IMAGE_1,
   DESCRIPTION_2,
 } from "../constants"
 
@@ -20,9 +22,28 @@ export default {
   type: "document",
   fields: [
     {
-      name: STRING_1,
-      title: "Dev Title",
+      name: HEADINE_LINE_3,
+      title: "Page Headline 1",
+      description: "This is the main page headline part 1.",
       type: "string",
+    },
+    {
+      name: HEADINE_LINE_4,
+      title: "Page Headline 2",
+      description: "This is the main page headline... Comeback.",
+      type: "string",
+    },
+    {
+      name: SOCIAL_SHARE_INFO,
+      title: "Social Share Information:",
+      description: "This is all of the social sharing info for social media.",
+      type: "socialShareBlock",
+    },
+    {
+      name: BACKGROUND_IMAGE_1,
+      title: "Header Background Image",
+      type: "reference",
+      to: [{ type: "backgroundImage" }],
     },
     {
       name: NUMBER_1,

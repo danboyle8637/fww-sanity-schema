@@ -8,6 +8,7 @@ import {
   STRING_1,
   SITE_WIDE_OFFER_SECTION,
   HEADINE_LINE_4,
+  SOCIAL_SHARE_INFO,
 } from "../constants"
 
 export default {
@@ -34,6 +35,12 @@ export default {
       description:
         "This is the page subheadline. Most likely just the name of the challenge.",
       type: "string",
+    },
+    {
+      name: SOCIAL_SHARE_INFO,
+      title: "Social Share Information:",
+      description: "This is all of the social sharing info for social media.",
+      type: "socialShareBlock",
     },
     {
       name: BACKGROUND_IMAGE_1,

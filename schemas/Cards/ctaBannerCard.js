@@ -22,6 +22,7 @@ export default {
           { title: "Plan Smart Eat Real", value: "planSmartEatReal" },
           { title: "Nutrition Coaching", value: "privateNutritionCoaching" },
           { title: "FWW LIVE", value: "fwwLive" },
+          { title: "New Year Challenge", value: "newYearChallenge" },
         ],
       },
     },
