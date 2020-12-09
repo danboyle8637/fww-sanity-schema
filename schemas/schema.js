@@ -68,7 +68,7 @@ import newYearFeaturePage from "./NewYearChallenge/newYearFeaturesPage"
 import newYearFeatureSection from "./NewYearChallenge/newYearFeatureSection"
 import newYearNutritionPage from "./NewYearChallenge/newYearNutritionPage"
 import newYearPricingPage from "./NewYearChallenge/newYearPricingPage"
-import newYearEarlyBirdPage from "./NewYearChallenge/newYearEarlyBirdPage"
+import newYearCustomerServicePage from "./NewYearChallenge/newYearCustomerServicePage"
 import newYearSuccessPage from "./NewYearChallenge/newYearSuccessPage"
 import siteWideOfferSection from "./NewYearChallenge/siteWideOfferSection"
 
@@ -139,6 +139,6 @@ export default createSchema({
     newYearPricingPage,
     newYearSuccessPage,
     siteWideOfferSection,
-    newYearEarlyBirdPage,
+    newYearCustomerServicePage,
   ]),
 })
