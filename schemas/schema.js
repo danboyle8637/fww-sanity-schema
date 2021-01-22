@@ -58,6 +58,7 @@ import transformationsPage from "./Pages/transformationsPage"
 
 // ? FWW LIVE
 import fwwLiveSweatySelfies from "./Images/fwwLiveSweatySelfies"
+import fwwLiveCoachingLP from "./Pages/fwwLiveCoachingLP"
 
 // ? New Year Challege
 import newYearMiniSiteCard from "./Cards/newYearMiniSiteCard"
@@ -126,6 +127,7 @@ export default createSchema({
     fwwLiveUpsellPage,
     fwwLiveTestimonialLP,
     transformationsPage,
+    fwwLiveCoachingLP,
     fwwLiveTrialThankYou,
     fwwLiveSweatySelfies,
     newYearMiniSiteCard,
