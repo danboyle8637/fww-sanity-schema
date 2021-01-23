@@ -6,6 +6,7 @@ import {
   COPY_BLOCK_4,
   COPY_BLOCK_5,
   COPY_BLOCK_6,
+  BACKGROUND_IMAGE_1,
 } from "../constants"
 
 export default {
@@ -43,6 +44,12 @@ export default {
       name: COPY_BLOCK_6,
       title: "Free Trial Call To Action",
       type: "blockContent",
+    },
+    {
+      name: BACKGROUND_IMAGE_1,
+      title: "Background Images for Coaching Section",
+      type: "reference",
+      to: [{ type: "backgroundImage" }],
     },
   ],
   preview: {
