@@ -1,68 +1,76 @@
-import { FaLink, FaRegCompass, FaExternalLinkAlt } from 'react-icons/fa'
-import FormTipIcon from '../components/FormTipIcon'
-import YouTubeEmbedIcon from '../components/YouTubeEmbedIcon'
-import PostImageIcon from '../components/PostImageIcon'
-import PodcastEmbedIcon from '../components/PodcastEmbedIcon'
-import CtaBannerIcon from '../components/CtaBannerIcon'
+import { FaLink, FaRegCompass, FaExternalLinkAlt } from "react-icons/fa"
+import FormTipIcon from "../components/FormTipIcon"
+import YouTubeEmbedIcon from "../components/YouTubeEmbedIcon"
+import PostImageIcon from "../components/PostImageIcon"
+import PodcastEmbedIcon from "../components/PodcastEmbedIcon"
+import CtaBannerIcon from "../components/CtaBannerIcon"
 
 export default {
-  name: 'blockContent',
-  title: 'Rich Text Content',
-  type: 'array',
+  name: "blockContent",
+  title: "Rich Text Content",
+  type: "array",
   of: [
     {
-      type: 'block',
+      type: "block",
       styles: [
-        { title: 'Normal', value: 'normal' },
-        { title: 'Heading 3', value: 'h3' },
-        { title: 'Heading 4', value: 'h4' },
+        { title: "Normal", value: "normal" },
+        { title: "Heading 3", value: "h3" },
+        { title: "Heading 4", value: "h4" },
+      ],
+      lists: [
+        { title: "Numbers", value: "number" },
+        { title: "Bullet", value: "bullet" },
+        { title: "Blue Bullet", value: "blueBullet" },
       ],
       marks: {
-        decorators: [{ title: 'Strong', value: 'strong' }],
+        decorators: [
+          { title: "Strong", value: "strong" },
+          { title: "BlueStrong", value: "blueStrong" },
+        ],
         annotations: [
           {
-            name: 'internalPostLink',
-            type: 'object',
-            title: 'Internal Post Link',
+            name: "internalPostLink",
+            type: "object",
+            title: "Internal Post Link",
             blockEditor: {
               icon: FaLink,
             },
             fields: [
               {
-                name: 'reference',
-                type: 'reference',
-                title: 'What post do you want to link to?',
-                to: [{ type: 'blogPost' }],
+                name: "reference",
+                type: "reference",
+                title: "What post do you want to link to?",
+                to: [{ type: "blogPost" }],
               },
             ],
           },
           {
-            name: 'internalPageLink',
-            type: 'object',
-            title: 'Internal Page Link',
+            name: "internalPageLink",
+            type: "object",
+            title: "Internal Page Link",
             blockEditor: { icon: FaRegCompass },
             fields: [
               {
-                name: 'pageUrl',
-                title: 'What page do you want to link to?',
-                description: 'Copy and paste only the part after the .com.',
-                type: 'string',
+                name: "pageUrl",
+                title: "What page do you want to link to?",
+                description: "Copy and paste only the part after the .com.",
+                type: "string",
               },
             ],
           },
           {
-            name: 'externalLink',
-            type: 'object',
-            title: 'External Page Link',
+            name: "externalLink",
+            type: "object",
+            title: "External Page Link",
             blockEditor: {
               icon: FaExternalLinkAlt,
             },
             fields: [
               {
-                name: 'externalUrl',
-                title: 'Where do you want to link to?',
-                description: 'Include the full url of the page.',
-                type: 'url',
+                name: "externalUrl",
+                title: "Where do you want to link to?",
+                description: "Include the full url of the page.",
+                type: "url",
               },
             ],
           },
@@ -70,34 +78,34 @@ export default {
       },
     },
     {
-      name: 'postImage',
-      title: 'Post Image',
+      name: "postImage",
+      title: "Post Image",
       icon: PostImageIcon,
-      type: 'postImage',
+      type: "postImage",
     },
     {
-      name: 'blogPostTip',
-      title: 'Blog Post Tip',
+      name: "blogPostTip",
+      title: "Blog Post Tip",
       icon: FormTipIcon,
-      type: 'blogPostTip',
+      type: "blogPostTip",
     },
     {
-      name: 'youTube',
-      title: 'YouTube Embed',
+      name: "youTube",
+      title: "YouTube Embed",
       icon: YouTubeEmbedIcon,
-      type: 'youTube',
+      type: "youTube",
     },
     {
-      name: 'podcast',
-      title: 'Podcast Embed',
+      name: "podcast",
+      title: "Podcast Embed",
       icon: PodcastEmbedIcon,
-      type: 'podcast',
+      type: "podcast",
     },
     {
-      name: 'ctaBanner',
-      title: 'CTA Banner',
+      name: "ctaBanner",
+      title: "CTA Banner",
       icon: CtaBannerIcon,
-      type: 'inlineCtaBanner',
+      type: "inlineCtaBanner",
     },
   ],
 }
