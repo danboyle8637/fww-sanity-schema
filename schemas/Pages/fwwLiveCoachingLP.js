@@ -7,6 +7,7 @@ import {
   COPY_BLOCK_5,
   COPY_BLOCK_6,
   COPY_BLOCK_7,
+  COPY_BLOCK_8,
   BACKGROUND_IMAGE_1,
   STRING_1,
   STRING_2,
@@ -96,7 +97,13 @@ export default {
     },
     {
       name: COPY_BLOCK_6,
-      title: "Plus There's More!",
+      title: "Plus There's More Bullets 1",
+      type: "blockContent",
+      fieldset: "section6",
+    },
+    {
+      name: COPY_BLOCK_8,
+      title: "Plus There's More Bullets 2",
       type: "blockContent",
       fieldset: "section6",
     },
