@@ -31,6 +31,12 @@ export default {
   ],
   fields: [
     {
+      name: "socialShareInformation",
+      title: "Social Share Information:",
+      description: "This is all of the social sharing info for social media.",
+      type: "socialShareBlock",
+    },
+    {
       name: STRING_1,
       title: "Putting Coaching First",
       description: "A predefined string.",
