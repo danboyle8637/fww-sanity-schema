@@ -32,11 +32,13 @@ import podcast from "./BlogPost/podcast"
 import blogPostTip from "./BlogPost/blogPostTip"
 import onTheFenceQuestions from "./onTheFenceQuestions"
 import socialShareInformation from "./socialShareInformation"
+import sectionImage from "./Images/sectionImage"
 
 import copyBlock from "./copyBlock"
 import earlyBirdSection from "./earlyBirdSection"
 
 import home from "./Pages/home"
+import mainSiteHome from "./MainSite/home"
 import about from "./Pages/about"
 import programsStorePage from "./Pages/programsStorePage"
 import baseSalesPage from "./Pages/baseSalesPage"
@@ -59,18 +61,6 @@ import transformationsPage from "./Pages/transformationsPage"
 // ? FWW LIVE
 import fwwLiveSweatySelfies from "./Images/fwwLiveSweatySelfies"
 import fwwLiveCoachingLP from "./Pages/fwwLiveCoachingLP"
-
-// ? New Year Challege
-import newYearMiniSiteCard from "./Cards/newYearMiniSiteCard"
-import newYearHomePage from "./NewYearChallenge/newYearHomePage"
-import newYearAboutPage from "./NewYearChallenge/newYearAboutPage"
-import newYearFeaturePage from "./NewYearChallenge/newYearFeaturesPage"
-import newYearFeatureSection from "./NewYearChallenge/newYearFeatureSection"
-import newYearNutritionPage from "./NewYearChallenge/newYearNutritionPage"
-import newYearPricingPage from "./NewYearChallenge/newYearPricingPage"
-import newYearCustomerServicePage from "./NewYearChallenge/newYearCustomerServicePage"
-import newYearSuccessPage from "./NewYearChallenge/newYearSuccessPage"
-import siteWideOfferSection from "./NewYearChallenge/siteWideOfferSection"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -111,6 +101,7 @@ export default createSchema({
     copyBlock,
     earlyBirdSection,
     home,
+    mainSiteHome,
     about,
     programsStorePage,
     baseSalesPage,
@@ -130,15 +121,6 @@ export default createSchema({
     fwwLiveCoachingLP,
     fwwLiveTrialThankYou,
     fwwLiveSweatySelfies,
-    newYearMiniSiteCard,
-    newYearHomePage,
-    newYearAboutPage,
-    newYearFeaturePage,
-    newYearFeatureSection,
-    newYearNutritionPage,
-    newYearPricingPage,
-    newYearSuccessPage,
-    siteWideOfferSection,
-    newYearCustomerServicePage,
+    sectionImage,
   ]),
 })

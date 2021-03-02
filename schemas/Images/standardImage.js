@@ -6,7 +6,7 @@ export default {
     {
       name: "mainStandardImage",
       title: "Main Standard Image:",
-      description: "This is your main image. Dimensions are custom.",
+      description: "This is an image with no alt or title.",
       type: "image",
     },
   ],
