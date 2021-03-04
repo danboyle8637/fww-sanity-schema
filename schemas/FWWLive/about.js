@@ -8,6 +8,7 @@ import {
   COPY_BLOCK_6,
   COPY_BLOCK_7,
   BACKGROUND_IMAGE_1,
+  STANDARD_IMAGE_1,
   SOCIAL_SHARE_INFO,
 } from "../constants"
 
@@ -63,6 +64,11 @@ export default {
       name: COPY_BLOCK_7,
       title: "Call To Action Section",
       type: "copyBlock",
+    },
+    {
+      name: STANDARD_IMAGE_1,
+      title: "Video Preload Poster Image",
+      type: "standardImage",
     },
   ],
   preview: {
