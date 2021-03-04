@@ -1,3 +1,4 @@
+import FWWLiveLogo from "../../components/FWWLiveLogo"
 import {
   COPY_BLOCK_1,
   COPY_BLOCK_2,
@@ -7,17 +8,13 @@ import {
   COPY_BLOCK_6,
   COPY_BLOCK_7,
   BACKGROUND_IMAGE_1,
-  BACKGROUND_IMAGE_3,
   SOCIAL_SHARE_INFO,
-  STANDARD_IMAGE_1,
-  STANDARD_IMAGE_2,
-  STANDARD_IMAGE_3,
-  STANDARD_IMAGE_4,
 } from "../constants"
 
 export default {
   name: "fwwLiveAbout",
   title: "FWW Live About Page",
+  icon: FWWLiveLogo,
   type: "document",
   fields: [
     {
@@ -39,8 +36,42 @@ export default {
     },
     {
       name: COPY_BLOCK_2,
-      title: "What Is FWW LIVE Section",
+      title: "Access to Your Trainers Section",
+      type: "copyBlock",
+    },
+    {
+      name: COPY_BLOCK_3,
+      title: "Actual Coaching Classes Section",
+      type: "copyBlock",
+    },
+    {
+      name: COPY_BLOCK_4,
+      title: "Trainer Led Workouts Section 1",
+      type: "copyBlock",
+    },
+    {
+      name: COPY_BLOCK_5,
+      title: "Trainer Led Workouts Section 2",
+      type: "copyBlock",
+    },
+    {
+      name: COPY_BLOCK_6,
+      title: "Plus More Section Section",
+      type: "copyBlock",
+    },
+    {
+      name: COPY_BLOCK_7,
+      title: "Call To Action Section",
       type: "copyBlock",
     },
   ],
+  preview: {
+    select: {},
+    prepare: () => {
+      return {
+        title: "FWW LIVE About Page",
+        subtitle: "This is part of the mini-site",
+      }
+    },
+  },
 }
