@@ -36,6 +36,7 @@ import sectionImage from "./Images/sectionImage"
 
 // FWW LIVE Mini Site
 import aboutFWWLive from "./FWWLive/about"
+import benefitsFWWLive from "./FWWLive/benefits"
 
 import copyBlock from "./copyBlock"
 import earlyBirdSection from "./earlyBirdSection"
@@ -107,6 +108,7 @@ export default createSchema({
     mainSiteHome,
     about,
     aboutFWWLive,
+    benefitsFWWLive,
     programsStorePage,
     baseSalesPage,
     planSmartEatRealSalesPage,
