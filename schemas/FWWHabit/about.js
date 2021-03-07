@@ -7,18 +7,14 @@ import {
   COPY_BLOCK_5,
   COPY_BLOCK_6,
   COPY_BLOCK_7,
-  COPY_BLOCK_8,
-  COPY_BLOCK_9,
   BACKGROUND_IMAGE_1,
-  SOCIAL_SHARE_INFO,
   STANDARD_IMAGE_1,
-  STANDARD_IMAGE_2,
-  STANDARD_IMAGE_3,
+  SOCIAL_SHARE_INFO,
 } from "../constants"
 
 export default {
-  name: "fwwLiveBenefits",
-  title: "FWW Live Benefits Page",
+  name: "fwwHabitAbout",
+  title: "FWW Habit About Page",
   icon: FWWLiveLogo,
   type: "document",
   fields: [
@@ -36,61 +32,41 @@ export default {
     },
     {
       name: COPY_BLOCK_1,
-      title: "Live Class Schedule Section",
+      title: "The Problem Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_2,
-      title: "Every Workout Is Recorded Section",
+      title: "Not Being Consistent Section",
       type: "copyBlock",
     },
     {
-      name: STANDARD_IMAGE_1,
-      title: "Recorded Workout Images 1",
-      type: "inPageImage",
-    },
-    {
-      name: STANDARD_IMAGE_2,
-      title: "Recorded Workout Images 2",
-      type: "inPageImage",
-    },
-    {
       name: COPY_BLOCK_3,
-      title: "Equipment Needed Section",
+      title: "Boring Workouts Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_4,
-      title: "Coaching Class Section",
+      title: "Getting Stuck in Plateaus Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_5,
-      title: "Talk to Your Trainers",
+      title: "Being All Alone Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_6,
-      title: "Weekly Live Coaching Calls",
+      title: "Being Confused Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_7,
-      title: "8 Week Training Plans Section",
-      type: "copyBlock",
-    },
-    {
-      name: COPY_BLOCK_8,
-      title: "Plus So Much More Section",
-      type: "copyBlock",
-    },
-    {
-      name: COPY_BLOCK_9,
       title: "Call To Action Section",
       type: "copyBlock",
     },
     {
-      name: STANDARD_IMAGE_3,
+      name: STANDARD_IMAGE_1,
       title: "Video Preload Poster Image",
       type: "standardImage",
     },
@@ -99,7 +75,7 @@ export default {
     select: {},
     prepare: () => {
       return {
-        title: "FWW Live Benefits Page",
+        title: "FWW Habit About Page",
         subtitle: "This is part of the mini-site",
       }
     },
