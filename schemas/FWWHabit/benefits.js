@@ -9,6 +9,7 @@ import {
   COPY_BLOCK_7,
   COPY_BLOCK_8,
   BACKGROUND_IMAGE_1,
+  BACKGROUND_IMAGE_2,
   STANDARD_IMAGE_1,
   SOCIAL_SHARE_INFO,
 } from "../constants"
@@ -40,6 +41,12 @@ export default {
       name: COPY_BLOCK_2,
       title: "Hundreds of Custom Workouts Section",
       type: "copyBlock",
+    },
+    {
+      name: BACKGROUND_IMAGE_2,
+      title: "Intensity Section Image",
+      type: "reference",
+      to: [{ type: "backgroundImage" }],
     },
     {
       name: COPY_BLOCK_3,
