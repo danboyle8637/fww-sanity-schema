@@ -42,6 +42,10 @@ import benefitsFWWLive from "./FWWLive/benefits"
 import aboutFWWHabit from "./FWWHabit/about"
 import benefitsFWWHabit from "./FWWHabit/benefits"
 
+// Plan Smart Eat Real Mini Site
+import aboutPlanSmartEatReal from "./PlanSmartEatReal/about"
+import benefitsPlanSmartEatReal from "./PlanSmartEatReal/benefits"
+
 import copyBlock from "./copyBlock"
 import earlyBirdSection from "./earlyBirdSection"
 
@@ -115,6 +119,8 @@ export default createSchema({
     benefitsFWWLive,
     aboutFWWHabit,
     benefitsFWWHabit,
+    aboutPlanSmartEatReal,
+    benefitsPlanSmartEatReal,
     programsStorePage,
     baseSalesPage,
     planSmartEatRealSalesPage,
