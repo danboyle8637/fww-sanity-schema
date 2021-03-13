@@ -7,6 +7,7 @@ import {
   COPY_BLOCK_5,
   COPY_BLOCK_6,
   COPY_BLOCK_7,
+  COPY_BLOCK_8,
   BACKGROUND_IMAGE_1,
   STANDARD_IMAGE_1,
   SOCIAL_SHARE_INFO,
@@ -38,7 +39,12 @@ export default {
     },
     {
       name: COPY_BLOCK_2,
-      title: "No More Confusion Section",
+      title: "No More Confusion Section Part 1",
+      type: "copyBlock",
+    },
+    {
+      name: COPY_BLOCK_8,
+      title: "No More Confusion Section Part 2",
       type: "copyBlock",
     },
     {
