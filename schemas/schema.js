@@ -34,9 +34,14 @@ import onTheFenceQuestions from "./onTheFenceQuestions"
 import socialShareInformation from "./socialShareInformation"
 import sectionImage from "./Images/sectionImage"
 
+// Shared Components on all Mini Sites
+import callToActionSections from "./callToActions"
+
 // FWW LIVE Mini Site
 import aboutFWWLive from "./FWWLive/about"
 import benefitsFWWLive from "./FWWLive/benefits"
+import classScheduleFWWLive from "./FWWLive/classSchedule"
+import pricingFWWLive from "./FWWLive/pricing"
 
 // FWW Habit Mini Site
 import aboutFWWHabit from "./FWWHabit/about"
@@ -117,11 +122,14 @@ export default createSchema({
     about,
     aboutFWWLive,
     benefitsFWWLive,
+    classScheduleFWWLive,
+    pricingFWWLive,
     aboutFWWHabit,
     benefitsFWWHabit,
     aboutPlanSmartEatReal,
     benefitsPlanSmartEatReal,
     programsStorePage,
+    callToActionSections,
     baseSalesPage,
     planSmartEatRealSalesPage,
     contactPage,
