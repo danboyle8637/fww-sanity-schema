@@ -1,5 +1,5 @@
 import { FWWLogo } from "../components/FWWLogo"
-import { HEADINE_LINE_1, COPY_BLOCK_1 } from "./constants"
+import { HEADINE_LINE_1, COPY_BLOCK_1, STANDARD_IMAGE_1 } from "./constants"
 
 export default {
   name: "callToActionSections",
@@ -16,6 +16,12 @@ export default {
       name: COPY_BLOCK_1,
       title: "Call To Action Section",
       type: "copyBlock",
+    },
+    {
+      name: STANDARD_IMAGE_1,
+      title: "Image for App Cover Image",
+      description: "This is not necessary... case by case basis.",
+      type: "standardImage",
     },
   ],
   preview: {
