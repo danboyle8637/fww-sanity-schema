@@ -46,6 +46,7 @@ import pricingFWWLive from "./FWWLive/pricing"
 // FWW Habit Mini Site
 import aboutFWWHabit from "./FWWHabit/about"
 import benefitsFWWHabit from "./FWWHabit/benefits"
+import workoutProgramsHabit from "./FWWHabit/workoutPrograms"
 
 // Plan Smart Eat Real Mini Site
 import aboutPlanSmartEatReal from "./PlanSmartEatReal/about"
@@ -126,6 +127,7 @@ export default createSchema({
     pricingFWWLive,
     aboutFWWHabit,
     benefitsFWWHabit,
+    workoutProgramsHabit,
     aboutPlanSmartEatReal,
     benefitsPlanSmartEatReal,
     programsStorePage,

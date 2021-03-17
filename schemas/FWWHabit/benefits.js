@@ -1,4 +1,4 @@
-import FWWLiveLogo from "../../components/FWWLiveLogo"
+import { HabitLogo } from "../../components/HabitLogo"
 import {
   COPY_BLOCK_1,
   COPY_BLOCK_2,
@@ -11,13 +11,14 @@ import {
   BACKGROUND_IMAGE_1,
   BACKGROUND_IMAGE_2,
   STANDARD_IMAGE_1,
+  STANDARD_IMAGE_2,
   SOCIAL_SHARE_INFO,
 } from "../constants"
 
 export default {
   name: "fwwHabitBenefits",
   title: "FWW Habit Benefits Page",
-  icon: FWWLiveLogo,
+  icon: HabitLogo,
   type: "document",
   fields: [
     {
@@ -49,8 +50,13 @@ export default {
       to: [{ type: "backgroundImage" }],
     },
     {
+      name: STANDARD_IMAGE_2,
+      title: "MicroHIT Workout Images",
+      type: "inPageImage",
+    },
+    {
       name: COPY_BLOCK_3,
-      title: "Intense Workouts Aside Section",
+      title: "MircoHIT Section",
       type: "copyBlock",
     },
     {

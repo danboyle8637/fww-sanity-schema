@@ -6,15 +6,13 @@ import {
   COPY_BLOCK_4,
   COPY_BLOCK_5,
   COPY_BLOCK_6,
-  COPY_BLOCK_7,
   BACKGROUND_IMAGE_1,
-  STANDARD_IMAGE_1,
   SOCIAL_SHARE_INFO,
 } from "../constants"
 
 export default {
-  name: "fwwHabitAbout",
-  title: "FWW Habit About Page",
+  name: "fwwHabitWorkoutPrograms",
+  title: "FWW Habit Workout Programs Page",
   icon: HabitLogo,
   type: "document",
   fields: [
@@ -37,45 +35,35 @@ export default {
     },
     {
       name: COPY_BLOCK_2,
-      title: "Not Being Consistent Section",
+      title: "Free Workouts Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_3,
-      title: "Boring Workouts Section",
+      title: "Coaching Programs Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_4,
-      title: "Getting Stuck in Plateaus Section",
+      title: "Premium Programs Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_5,
-      title: "Being All Alone Section",
+      title: "Workout With Us Now Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_6,
-      title: "Being Confused Section",
-      type: "copyBlock",
-    },
-    {
-      name: COPY_BLOCK_7,
       title: "Call To Action Section",
       type: "copyBlock",
-    },
-    {
-      name: STANDARD_IMAGE_1,
-      title: "Video Preload Poster Image",
-      type: "standardImage",
     },
   ],
   preview: {
     select: {},
     prepare: () => {
       return {
-        title: "FWW Habit About Page",
+        title: "FWW Habit Workuot Program Page",
         subtitle: "This is part of the mini-site",
       }
     },
