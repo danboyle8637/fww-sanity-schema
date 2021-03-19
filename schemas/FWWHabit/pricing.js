@@ -1,19 +1,14 @@
 import { HabitLogo } from "../../components/HabitLogo"
 import {
-  COPY_BLOCK_1,
   COPY_BLOCK_2,
   COPY_BLOCK_3,
-  COPY_BLOCK_4,
-  COPY_BLOCK_5,
-  COPY_BLOCK_6,
   BACKGROUND_IMAGE_1,
-  STANDARD_IMAGE_1,
   SOCIAL_SHARE_INFO,
 } from "../constants"
 
 export default {
-  name: "fwwHabitWorkoutPrograms",
-  title: "FWW Habit Workout Programs Page",
+  name: "fwwHabitPricing",
+  title: "FWW Habit Pricing Page",
   icon: HabitLogo,
   type: "document",
   fields: [
@@ -30,46 +25,21 @@ export default {
       type: "socialShareBlock",
     },
     {
-      name: COPY_BLOCK_1,
-      title: "The Problem Section",
-      type: "copyBlock",
-    },
-    {
       name: COPY_BLOCK_2,
-      title: "Free Workouts Section",
+      title: "Get Started for FREE Section",
       type: "copyBlock",
     },
     {
       name: COPY_BLOCK_3,
-      title: "Coaching Programs Section",
+      title: "Purchase Programs Individually Section",
       type: "copyBlock",
-    },
-    {
-      name: COPY_BLOCK_4,
-      title: "Premium Programs Section",
-      type: "copyBlock",
-    },
-    {
-      name: COPY_BLOCK_5,
-      title: "Workout With Us Now Section",
-      type: "copyBlock",
-    },
-    {
-      name: COPY_BLOCK_6,
-      title: "Call To Action Section",
-      type: "copyBlock",
-    },
-    {
-      name: STANDARD_IMAGE_1,
-      title: "Video Preload Poster Image",
-      type: "standardImage",
     },
   ],
   preview: {
     select: {},
     prepare: () => {
       return {
-        title: "FWW Habit Workuot Program Page",
+        title: "FWW Habit Pricing Page",
         subtitle: "This is part of the mini-site",
       }
     },

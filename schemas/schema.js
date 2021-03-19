@@ -47,10 +47,16 @@ import pricingFWWLive from "./FWWLive/pricing"
 import aboutFWWHabit from "./FWWHabit/about"
 import benefitsFWWHabit from "./FWWHabit/benefits"
 import workoutProgramsHabit from "./FWWHabit/workoutPrograms"
+import pricingFWWHabit from "./FWWHabit/pricing"
 
 // Plan Smart Eat Real Mini Site
 import aboutPlanSmartEatReal from "./PlanSmartEatReal/about"
 import benefitsPlanSmartEatReal from "./PlanSmartEatReal/benefits"
+
+// Will have to delete this with CLI tool
+// fwwLiveWorkoutStyleCards
+// Kettlebell Crunch
+import kettlebellCrunchCards from "./Cards/kettlebellCrunchCards"
 
 import copyBlock from "./copyBlock"
 import earlyBirdSection from "./earlyBirdSection"
@@ -66,7 +72,6 @@ import privateNutritionCoaching from "./Pages/privateNutritionCoaching"
 import contactPage from "./Pages/contact"
 import legalPages from "./Pages/legalPages"
 import thankYouPages from "./Pages/thankYouPages"
-import fwwLiveWorkoutStyleCards from "./Cards/fwwLiveWorkoutStyleCards"
 import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
 import fwwLiveTrialThankYou from "./Pages/fwwLiveTrialThankYou"
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
@@ -79,6 +84,8 @@ import transformationsPage from "./Pages/transformationsPage"
 // ? FWW LIVE
 import fwwLiveSweatySelfies from "./Images/fwwLiveSweatySelfies"
 import fwwLiveCoachingLP from "./Pages/fwwLiveCoachingLP"
+
+// fww
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -128,8 +135,10 @@ export default createSchema({
     aboutFWWHabit,
     benefitsFWWHabit,
     workoutProgramsHabit,
+    pricingFWWHabit,
     aboutPlanSmartEatReal,
     benefitsPlanSmartEatReal,
+    kettlebellCrunchCards,
     programsStorePage,
     callToActionSections,
     baseSalesPage,
@@ -141,7 +150,6 @@ export default createSchema({
     legalPages,
     thankYouPages,
     socialShareInformation,
-    fwwLiveWorkoutStyleCards,
     fwwLiveThreeDayTrial,
     fwwLiveUpsellPage,
     fwwLiveTestimonialLP,
