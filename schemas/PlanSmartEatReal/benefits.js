@@ -12,6 +12,7 @@ import {
   STANDARD_IMAGE_1,
   SOCIAL_SHARE_INFO,
   STANDARD_IMAGE_2,
+  STANDARD_IMAGE_3,
 } from "../constants"
 
 export default {
@@ -36,6 +37,11 @@ export default {
       name: COPY_BLOCK_1,
       title: "Weekly Meal Plans Section",
       type: "copyBlock",
+    },
+    {
+      name: STANDARD_IMAGE_3,
+      title: "Weekly Meal Plan Pictures",
+      type: "inPageImage",
     },
     {
       name: COPY_BLOCK_2,
