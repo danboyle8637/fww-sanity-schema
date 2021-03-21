@@ -1,10 +1,10 @@
-import { FaHome } from "react-icons/fa"
+import { FWWLogo } from "../../components/FWWLogo"
 import { COPY_BLOCK_1, COPY_BLOCK_2, BACKGROUND_IMAGE_1 } from "../constants"
 
 export default {
   name: "homePage",
   title: "Home Page",
-  icon: FaHome,
+  icon: FWWLogo,
   type: "document",
   fieldsets: [{ name: "pages", title: "Site Pages:" }],
   fields: [

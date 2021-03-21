@@ -1,4 +1,4 @@
-import { FaHome } from "react-icons/fa"
+import { FWWLogo } from "../../components/FWWLogo"
 import {
   COPY_BLOCK_1,
   COPY_BLOCK_2,
@@ -17,7 +17,7 @@ import {
 export default {
   name: "mainSiteHome",
   title: "Home Page",
-  icon: FaHome,
+  icon: FWWLogo,
   type: "document",
   fields: [
     {
