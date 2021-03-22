@@ -60,7 +60,7 @@ export default {
     {
       name: STANDARD_IMAGE_3,
       title: "Kettlebell Crunch Image",
-      type: "sectionImage",
+      type: "inPageImage",
     },
     {
       name: COPY_BLOCK_4,
