@@ -12,6 +12,7 @@ import {
   STANDARD_IMAGE_2,
   STANDARD_IMAGE_3,
   STANDARD_IMAGE_4,
+  STRING_1,
 } from "../constants"
 
 export default {
@@ -50,6 +51,11 @@ export default {
     {
       name: STANDARD_IMAGE_2,
       title: "Nutrition Card Recipe Image 2",
+      type: "sectionImage",
+    },
+    {
+      name: STRING_1,
+      title: "Nutrition Card Recipe Image 3",
       type: "sectionImage",
     },
     {
