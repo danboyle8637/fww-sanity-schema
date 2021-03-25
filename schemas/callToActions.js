@@ -21,7 +21,7 @@ export default {
       name: STANDARD_IMAGE_1,
       title: "Image for App Cover Image",
       description: "This is not necessary... case by case basis.",
-      type: "standardImage",
+      type: "sectionImage",
     },
   ],
   preview: {
