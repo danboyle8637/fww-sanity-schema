@@ -7,6 +7,7 @@ import {
   STRING_1,
   STRING_2,
   STRING_3,
+  COPY_BLOCK_1,
 } from "../constants"
 
 export default {
@@ -50,9 +51,9 @@ export default {
       type: "number",
     },
     {
-      name: STRING_1,
+      name: COPY_BLOCK_1,
       title: "KB Crunch Flavor Description",
-      type: "text",
+      type: "copyBlock",
     },
     {
       name: STRING_2,

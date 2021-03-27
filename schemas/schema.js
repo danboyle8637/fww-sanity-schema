@@ -57,6 +57,7 @@ import benefitsPlanSmartEatReal from "./PlanSmartEatReal/benefits"
 // fwwLiveWorkoutStyleCards
 // Kettlebell Crunch
 import kettlebellCrunchCards from "./Cards/kettlebellCrunchCards"
+import kettlebellCrunchProduct from "./KettlebellCrunch/crunchProduct"
 
 import copyBlock from "./copyBlock"
 import earlyBirdSection from "./earlyBirdSection"
@@ -139,6 +140,7 @@ export default createSchema({
     aboutPlanSmartEatReal,
     benefitsPlanSmartEatReal,
     kettlebellCrunchCards,
+    kettlebellCrunchProduct,
     programsStorePage,
     callToActionSections,
     baseSalesPage,
