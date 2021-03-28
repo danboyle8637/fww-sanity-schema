@@ -1,5 +1,16 @@
 import { KBCrunchLogo } from "../../components/KBCrunchLogo"
-import { HEADINE_LINE_1, SOCIAL_SHARE_INFO, STRING_2 } from "../constants"
+import {
+  HEADINE_LINE_1,
+  SOCIAL_SHARE_INFO,
+  STRING_2,
+  STRING_1,
+  STRING_3,
+  STRING_4,
+  STRING_5,
+  STRING_6,
+  STRING_7,
+  STRING_8,
+} from "../constants"
 
 export default {
   name: "kettlebellCrunchProduct",
@@ -17,6 +28,26 @@ export default {
       title: "Social Share Information:",
       description: "This is all of the social sharing info for social media.",
       type: "socialShareBlock",
+    },
+    {
+      name: STRING_1,
+      title: "Custom Ingredient 1:",
+      type: "string",
+    },
+    {
+      name: STRING_3,
+      title: "Custom Ingredient 2:",
+      type: "string",
+    },
+    {
+      name: STRING_4,
+      title: "Custom Ingredient 3:",
+      type: "string",
+    },
+    {
+      name: STRING_5,
+      title: "Custom Ingredient 1:",
+      type: "string",
     },
     {
       name: STRING_2,
