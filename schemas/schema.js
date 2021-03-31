@@ -59,6 +59,8 @@ import benefitsPlanSmartEatReal from "./PlanSmartEatReal/benefits"
 import kettlebellCrunchCards from "./Cards/kettlebellCrunchCards"
 import kettlebellCrunchProduct from "./KettlebellCrunch/crunchProduct"
 
+import fwwThankYouPages from "./Pages/thankYouPages"
+
 import copyBlock from "./copyBlock"
 import earlyBirdSection from "./earlyBirdSection"
 
@@ -72,7 +74,6 @@ import planSmartEatRealSalesPage from "./Pages/planSmartEatRealSalesPage"
 import privateNutritionCoaching from "./Pages/privateNutritionCoaching"
 import contactPage from "./Pages/contact"
 import legalPages from "./Pages/legalPages"
-import thankYouPages from "./Pages/thankYouPages"
 import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
 import fwwLiveTrialThankYou from "./Pages/fwwLiveTrialThankYou"
 import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
@@ -141,8 +142,9 @@ export default createSchema({
     benefitsPlanSmartEatReal,
     kettlebellCrunchCards,
     kettlebellCrunchProduct,
-    programsStorePage,
     callToActionSections,
+    fwwThankYouPages,
+    programsStorePage,
     baseSalesPage,
     planSmartEatRealSalesPage,
     contactPage,
@@ -150,7 +152,6 @@ export default createSchema({
     fwwLiveClassScheduleCard2,
     privateNutritionCoaching,
     legalPages,
-    thankYouPages,
     socialShareInformation,
     fwwLiveThreeDayTrial,
     fwwLiveUpsellPage,

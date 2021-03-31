@@ -1,29 +1,39 @@
-import { FaEarlybirds } from "react-icons/fa"
-import { COPY_BLOCK_1, BACKGROUND_IMAGE_1 } from "../constants"
+import { FWWLogo } from "../../components/FWWLogo"
+import { HEADINE_LINE_1, COPY_BLOCK_1, STANDARD_IMAGE_1 } from "../constants"
 
 export default {
-  name: "earlyBirdThankYou",
-  title: "Early Bird Thank You Page",
-  icon: FaEarlybirds,
+  name: "fwwThankYouPages",
+  title: "Thank You Pages",
+  icon: FWWLogo,
   type: "document",
   fields: [
     {
-      name: "devTitle",
-      title: "Dev Title:",
-      description: "A short title for the sidebar. Dev use only.",
+      name: HEADINE_LINE_1,
+      title: "Thank You Page Headline",
       type: "string",
-    },
-    {
-      name: BACKGROUND_IMAGE_1,
-      title: "Thank You Header Background:",
-      type: "reference",
-      to: [{ type: "backgroundImage" }],
     },
     {
       name: COPY_BLOCK_1,
       title: "Thank You Copy:",
-      description: "Tell them to click on a card and make it sound very easy.",
+      description: "Tell them the one thing they must do next.",
       type: "copyBlock",
     },
+    {
+      name: STANDARD_IMAGE_1,
+      title: "Optional Image",
+      description: "This is not necessary... case by case basis.",
+      type: "sectionImage",
+    },
   ],
+  preview: {
+    select: {
+      title: HEADINE_LINE_1,
+    },
+    prepare: ({ title }) => {
+      return {
+        title,
+        subtitle: "Call to action section body copy",
+      }
+    },
+  },
 }
