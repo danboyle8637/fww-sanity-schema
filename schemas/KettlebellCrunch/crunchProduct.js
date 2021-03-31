@@ -7,9 +7,6 @@ import {
   STRING_3,
   STRING_4,
   STRING_5,
-  STRING_6,
-  STRING_7,
-  STRING_8,
 } from "../constants"
 
 export default {
