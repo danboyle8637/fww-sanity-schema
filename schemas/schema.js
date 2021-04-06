@@ -36,6 +36,7 @@ import sectionImage from "./Images/sectionImage"
 
 // Shared Components on all Mini Sites
 import callToActionSections from "./callToActions"
+import seoData from "./seoData"
 
 // FWW LIVE Mini Site
 import aboutFWWLive from "./FWWLive/about"
@@ -143,6 +144,7 @@ export default createSchema({
     kettlebellCrunchCards,
     kettlebellCrunchProduct,
     callToActionSections,
+    seoData,
     fwwThankYouPages,
     programsStorePage,
     baseSalesPage,

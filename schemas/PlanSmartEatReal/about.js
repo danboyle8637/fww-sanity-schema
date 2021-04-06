@@ -9,11 +9,9 @@ import {
   COPY_BLOCK_7,
   COPY_BLOCK_8,
   BACKGROUND_IMAGE_1,
-  BACKGROUND_IMAGE_2,
-  STANDARD_IMAGE_1,
   SOCIAL_SHARE_INFO,
   STANDARD_IMAGE_2,
-  STANDARD_IMAGE_3,
+  STANDARD_IMAGE_4,
 } from "../constants"
 
 export default {
@@ -50,10 +48,9 @@ export default {
       type: "copyBlock",
     },
     {
-      name: BACKGROUND_IMAGE_2,
-      title: "The Hard Truth Background",
-      type: "reference",
-      to: [{ type: "backgroundImage" }],
+      name: STANDARD_IMAGE_4,
+      title: "The Hard Truth Image",
+      type: "inPageImage",
     },
     {
       name: COPY_BLOCK_3,
@@ -79,16 +76,6 @@ export default {
       name: COPY_BLOCK_7,
       title: "Call To Action Section",
       type: "copyBlock",
-    },
-    {
-      name: STANDARD_IMAGE_3,
-      title: "Plan Smart Eat App Cover Image",
-      type: "inPageImage",
-    },
-    {
-      name: STANDARD_IMAGE_1,
-      title: "Plan Smart Eat Real PDF Image",
-      type: "inPageImage",
     },
     {
       name: STANDARD_IMAGE_2,
