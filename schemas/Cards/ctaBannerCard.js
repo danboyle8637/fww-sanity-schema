@@ -20,9 +20,7 @@ export default {
       options: {
         list: [
           { title: "Plan Smart Eat Real", value: "planSmartEatReal" },
-          { title: "Nutrition Coaching", value: "privateNutritionCoaching" },
           { title: "FWW LIVE", value: "fwwLive" },
-          { title: "New Year Challenge", value: "newYearChallenge" },
         ],
       },
     },
@@ -33,34 +31,16 @@ export default {
       type: "mobileImage",
     },
     {
-      name: "iPadImage",
-      title: "Upload Above Mobile Image:",
-      description: "This is the image that will show on iPads and above.",
-      type: "iPadImage",
-    },
-    {
-      name: "laptopImage",
-      title: "Upload Laptop Image:",
-      description: "This is the image that will show on laptops and bigger.",
-      type: "laptopImage",
-    },
-    {
       name: "imageTitle",
       title: "Image Title:",
       description: "Give this image a short title.",
       type: "string",
-      options: {
-        isHighlighted: true,
-      },
     },
     {
       name: "imageAltTag",
       title: "Image Alt Tag:",
       description: "Describe what this image is for people who cannot see it.",
       type: "string",
-      options: {
-        isHighlighted: true,
-      },
     },
     {
       name: "ctaHeadline",
