@@ -43,6 +43,7 @@ import seoData from "./seoData"
 import aboutFWWLive from "./FWWLive/about"
 import benefitsFWWLive from "./FWWLive/benefits"
 import classScheduleFWWLive from "./FWWLive/classSchedule"
+import fwwLiveWorkoutStyleCards from "./Cards/fwwLiveWorkoutStyleCards"
 import pricingFWWLive from "./FWWLive/pricing"
 
 // FWW Habit Mini Site
@@ -64,14 +65,10 @@ import kettlebellCrunchProduct from "./KettlebellCrunch/crunchProduct"
 import fwwThankYouPages from "./Pages/thankYouPages"
 
 import copyBlock from "./copyBlock"
-import earlyBirdSection from "./earlyBirdSection"
 
 import home from "./Pages/home"
 import mainSiteHome from "./MainSite/home"
 import about from "./Pages/about"
-import programsStorePage from "./Pages/programsStorePage"
-import baseSalesPage from "./Pages/baseSalesPage"
-import planSmartEatRealSalesPage from "./Pages/planSmartEatRealSalesPage"
 
 import privateNutritionCoaching from "./Pages/privateNutritionCoaching"
 import contactPage from "./Pages/contact"
@@ -128,13 +125,13 @@ export default createSchema({
     blogPostTip,
     onTheFenceQuestions,
     copyBlock,
-    earlyBirdSection,
     home,
     mainSiteHome,
     about,
     aboutFWWLive,
     benefitsFWWLive,
     classScheduleFWWLive,
+    fwwLiveWorkoutStyleCards,
     pricingFWWLive,
     aboutFWWHabit,
     benefitsFWWHabit,
@@ -148,11 +145,7 @@ export default createSchema({
     downloads,
     seoData,
     fwwThankYouPages,
-    programsStorePage,
-    baseSalesPage,
-    planSmartEatRealSalesPage,
     contactPage,
-    fwwLiveSalesPage,
     fwwLiveClassScheduleCard2,
     privateNutritionCoaching,
     legalPages,

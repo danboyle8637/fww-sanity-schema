@@ -4,7 +4,6 @@ import {
   NUMBER_1,
   NUMBER_2,
   STANDARD_IMAGE_1,
-  STRING_1,
   STRING_2,
   STRING_3,
   COPY_BLOCK_1,
