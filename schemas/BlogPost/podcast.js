@@ -1,13 +1,14 @@
 export default {
-  name: 'podcast',
-  title: 'Podcast Embed:',
-  type: 'object',
+  name: "podcast",
+  title: "Podcast Embed:",
+  type: "object",
   fields: [
     {
-      name: 'podcastAudioUrl',
-      title: 'Libsyn Direct Download Url:',
-      description: 'This is the Direct Download url from the embed options.',
-      type: 'string',
+      name: "podcastAudioUrl",
+      title: "Spotify Episode Id Url:",
+      description:
+        "This is the id of the podcast episode. Ask Dan how to get this id.",
+      type: "string",
     },
   ],
 }
