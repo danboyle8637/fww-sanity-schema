@@ -30,7 +30,7 @@ import nutritionProgramStatsBar from "./Cards/nutritionProgramStatsBar"
 import youTube from "./BlogPost/youTube"
 import podcast from "./BlogPost/podcast"
 import blogPostTip from "./BlogPost/blogPostTip"
-import onTheFenceQuestions from "./onTheFenceQuestions"
+import videoGif from "./BlogPost/videoGif"
 import socialShareInformation from "./socialShareInformation"
 import sectionImage from "./Images/sectionImage"
 
@@ -62,6 +62,7 @@ import benefitsPlanSmartEatReal from "./PlanSmartEatReal/benefits"
 import kettlebellCrunchCards from "./Cards/kettlebellCrunchCards"
 import kettlebellCrunchProduct from "./KettlebellCrunch/crunchProduct"
 
+import baseLandingPage from "./LandingPages/baseLandingPage"
 import fwwThankYouPages from "./Pages/thankYouPages"
 
 import copyBlock from "./copyBlock"
@@ -71,11 +72,8 @@ import mainSiteHome from "./MainSite/home"
 import about from "./Pages/about"
 
 import privateNutritionCoaching from "./Pages/privateNutritionCoaching"
-import contactPage from "./Pages/contact"
 import legalPages from "./Pages/legalPages"
-import fwwLiveClassScheduleCard2 from "./Cards/fwwLiveClassScheduleCard2"
 import fwwLiveTrialThankYou from "./Pages/fwwLiveTrialThankYou"
-import fwwLiveSalesPage from "./Pages/fwwLiveSalesPage"
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial"
 import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP"
 
@@ -123,7 +121,7 @@ export default createSchema({
     youTube,
     podcast,
     blogPostTip,
-    onTheFenceQuestions,
+    videoGif,
     copyBlock,
     home,
     mainSiteHome,
@@ -142,11 +140,10 @@ export default createSchema({
     kettlebellCrunchCards,
     kettlebellCrunchProduct,
     callToActionSections,
+    baseLandingPage,
     downloads,
     seoData,
     fwwThankYouPages,
-    contactPage,
-    fwwLiveClassScheduleCard2,
     privateNutritionCoaching,
     legalPages,
     socialShareInformation,
@@ -154,8 +151,6 @@ export default createSchema({
     fwwLiveUpsellPage,
     fwwLiveTestimonialLP,
     transformationsPage,
-    fwwLiveCoachingLP,
-    fwwLiveTrialThankYou,
     fwwLiveSweatySelfies,
     sectionImage,
   ]),

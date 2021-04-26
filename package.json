@@ -22,10 +22,10 @@
     "@sanity/default-login": "^2.8.0",
     "@sanity/desk-tool": "^2.8.0",
     "@sanity/vision": "^2.8.0",
+    "postcss": "^8.2.10",
     "prop-types": "^15.6",
     "react": "^16.13.1",
     "react-dom": "^16.12.0",
     "react-icons": "^3.11.0"
-  },
-  "devDependencies": {}
+  }
 }

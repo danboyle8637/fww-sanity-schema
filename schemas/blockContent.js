@@ -102,6 +102,11 @@ export default {
       type: "podcast",
     },
     {
+      name: "videoGif",
+      title: "Video Gif",
+      type: "videoGif",
+    },
+    {
       name: "ctaBanner",
       title: "CTA Banner",
       icon: CtaBannerIcon,
