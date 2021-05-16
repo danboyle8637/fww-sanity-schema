@@ -1,5 +1,5 @@
 import { VideoGifIcon } from "../../components/VideoGifIcon"
-import { STRING_1, STRING_2 } from "../constants"
+import { STRING_1, STRING_2, STRING_3 } from "../constants"
 
 export default {
   name: "videoGif",
@@ -16,6 +16,11 @@ export default {
       name: STRING_2,
       title: "Vimeo Id:",
       type: "string",
+    },
+    {
+      name: STRING_3,
+      title: "Poster Image",
+      type: "image",
     },
   ],
 }
