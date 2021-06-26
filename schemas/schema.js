@@ -84,7 +84,8 @@ import transformationsPage from "./Pages/transformationsPage"
 import fwwLiveSweatySelfies from "./Images/fwwLiveSweatySelfies"
 import fwwLiveCoachingLP from "./Pages/fwwLiveCoachingLP"
 
-// fww
+// Consolidation
+import salesPage from "./Pages/salesPage"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -140,6 +141,7 @@ export default createSchema({
     kettlebellCrunchCards,
     kettlebellCrunchProduct,
     callToActionSections,
+    salesPage,
     baseLandingPage,
     downloads,
     seoData,
