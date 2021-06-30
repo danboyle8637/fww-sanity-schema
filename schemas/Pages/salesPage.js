@@ -21,6 +21,11 @@ import {
   STANDARD_IMAGE_2,
   STANDARD_IMAGE_3,
   STANDARD_IMAGE_4,
+  DESCRIPTION_1,
+  DESCRIPTION_2,
+  DESCRIPTION_3,
+  DESCRIPTION_4,
+  DESCRIPTION_5,
 } from "../constants"
 
 export default {
@@ -123,6 +128,36 @@ export default {
       name: COPY_BLOCK_10,
       title: "Copy Block 10",
       type: "copyBlock",
+    },
+    {
+      name: DESCRIPTION_1,
+      title: "Simple Description 1",
+      type: "text",
+      rows: 5,
+    },
+    {
+      name: DESCRIPTION_2,
+      title: "Simple Description 2",
+      type: "text",
+      rows: 5,
+    },
+    {
+      name: DESCRIPTION_3,
+      title: "Simple Description 3",
+      type: "text",
+      rows: 5,
+    },
+    {
+      name: DESCRIPTION_4,
+      title: "Simple Description 4",
+      type: "text",
+      rows: 5,
+    },
+    {
+      name: DESCRIPTION_5,
+      title: "Simple Description 5",
+      type: "text",
+      rows: 5,
     },
     {
       name: STANDARD_IMAGE_1,

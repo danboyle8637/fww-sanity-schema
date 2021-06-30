@@ -1,5 +1,5 @@
 import { FaComment } from "react-icons/fa"
-import { STRING_1 } from "../constants"
+import { STRING_1, DESCRIPTION_1 } from "../constants"
 
 export default {
   name: "testimonialCard",
@@ -57,6 +57,12 @@ export default {
       name: "testimonialBody",
       title: "Testimonial Body:",
       type: "blockContent",
+    },
+    {
+      name: DESCRIPTION_1,
+      title: "Short Snippet",
+      type: "text",
+      rows: 3,
     },
   ],
 }
