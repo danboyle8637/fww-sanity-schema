@@ -1,9 +1,12 @@
-import { FaLink, FaRegCompass, FaExternalLinkAlt } from "react-icons/fa"
-import FormTipIcon from "../components/FormTipIcon"
-import YouTubeEmbedIcon from "../components/YouTubeEmbedIcon"
-import PostImageIcon from "../components/PostImageIcon"
-import PodcastEmbedIcon from "../components/PodcastEmbedIcon"
-import CtaBannerIcon from "../components/CtaBannerIcon"
+import { FaLink, FaRegCompass, FaExternalLinkAlt } from "react-icons/fa";
+import FormTipIcon from "../components/FormTipIcon";
+import YouTubeEmbedIcon from "../components/YouTubeEmbedIcon";
+import PostImageIcon from "../components/PostImageIcon";
+import PodcastEmbedIcon from "../components/PodcastEmbedIcon";
+import CtaBannerIcon from "../components/CtaBannerIcon";
+import WorkoutIcon from "../components/WorkoutIcon";
+import RecipeIcon from "../components/RecipeIcon";
+import StepIcon from "../components/StepIcon";
 
 export default {
   name: "blockContent",
@@ -90,6 +93,24 @@ export default {
       type: "blogPostTip",
     },
     {
+      name: "detailedStep",
+      title: "Detailed Step",
+      icon: StepIcon,
+      type: "detailedStep",
+    },
+    {
+      name: "workout",
+      title: "Workout",
+      icon: WorkoutIcon,
+      type: "workout",
+    },
+    {
+      name: "recipe",
+      title: "Recipe",
+      icon: RecipeIcon,
+      type: "recipe",
+    },
+    {
       name: "youTube",
       title: "YouTube Embed",
       icon: YouTubeEmbedIcon,
@@ -113,4 +134,4 @@ export default {
       type: "inlineCtaBanner",
     },
   ],
-}
+};

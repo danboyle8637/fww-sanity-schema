@@ -1,8 +1,8 @@
-import React from 'react'
-import { FaImage } from 'react-icons/fa'
+import React from "react";
+import { FaImage } from "react-icons/fa";
 
 const PostImageIcon = () => {
-  return <FaImage />
-}
+  return <FaImage />;
+};
 
-export default PostImageIcon
+export default PostImageIcon;

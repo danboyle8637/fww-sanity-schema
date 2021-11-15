@@ -1,4 +1,4 @@
-import { FWWLogo } from "../../components/FWWLogo"
+import { FWWLogo } from "../../components/FWWLogo";
 import {
   HEADINE_LINE_1,
   BACKGROUND_IMAGE_1,
@@ -17,16 +17,16 @@ import {
   COPY_BLOCK_8,
   COPY_BLOCK_9,
   COPY_BLOCK_10,
+  COPY_BLOCK_11,
+  COPY_BLOCK_12,
+  COPY_BLOCK_13,
+  COPY_BLOCK_14,
+  COPY_BLOCK_15,
   STANDARD_IMAGE_1,
   STANDARD_IMAGE_2,
   STANDARD_IMAGE_3,
   STANDARD_IMAGE_4,
-  DESCRIPTION_1,
-  DESCRIPTION_2,
-  DESCRIPTION_3,
-  DESCRIPTION_4,
-  DESCRIPTION_5,
-} from "../constants"
+} from "../constants";
 
 export default {
   name: "fwwSalesPage",
@@ -130,34 +130,29 @@ export default {
       type: "copyBlock",
     },
     {
-      name: DESCRIPTION_1,
-      title: "Simple Description 1",
-      type: "text",
-      rows: 5,
+      name: COPY_BLOCK_11,
+      title: "Copy Block 11",
+      type: "copyBlock",
     },
     {
-      name: DESCRIPTION_2,
-      title: "Simple Description 2",
-      type: "text",
-      rows: 5,
+      name: COPY_BLOCK_12,
+      title: "Copy Block 12",
+      type: "copyBlock",
     },
     {
-      name: DESCRIPTION_3,
-      title: "Simple Description 3",
-      type: "text",
-      rows: 5,
+      name: COPY_BLOCK_13,
+      title: "Copy Block 13",
+      type: "copyBlock",
     },
     {
-      name: DESCRIPTION_4,
-      title: "Simple Description 4",
-      type: "text",
-      rows: 5,
+      name: COPY_BLOCK_14,
+      title: "Copy Block 14",
+      type: "copyBlock",
     },
     {
-      name: DESCRIPTION_5,
-      title: "Simple Description 5",
-      type: "text",
-      rows: 5,
+      name: COPY_BLOCK_15,
+      title: "Copy Block 15",
+      type: "copyBlock",
     },
     {
       name: STANDARD_IMAGE_1,
@@ -188,7 +183,7 @@ export default {
       return {
         title,
         subtitle: "This is the base landing page for copy.",
-      }
+      };
     },
   },
-}
+};

@@ -1,14 +1,8 @@
-import React from 'react'
-import { FaYoutube } from 'react-icons/fa'
-
-const containerStyles = {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-}
+import React from "react";
+import { FaYoutube } from "react-icons/fa";
 
 const YouTubeEmbedIcon = () => {
-  return <FaYoutube />
-}
+  return <FaYoutube />;
+};
 
-export default YouTubeEmbedIcon
+export default YouTubeEmbedIcon;
