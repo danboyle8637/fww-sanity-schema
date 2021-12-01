@@ -38,6 +38,7 @@ import workout from "./BlogPost/workout";
 import exercise from "./BlogPost/exercise";
 import recipe from "./BlogPost/recipe";
 import detailedStep from "./BlogPost/detailedStep";
+import socialaccounts from "./BlogPost/socialaccounts";
 
 // Shared Components on all Mini Sites
 import callToActionSections from "./callToActions";
@@ -132,6 +133,7 @@ export default createSchema({
     exercise,
     recipe,
     detailedStep,
+    socialaccounts,
     copyBlock,
     home,
     mainSiteHome,

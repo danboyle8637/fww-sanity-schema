@@ -7,6 +7,7 @@ import CtaBannerIcon from "../components/CtaBannerIcon";
 import WorkoutIcon from "../components/WorkoutIcon";
 import RecipeIcon from "../components/RecipeIcon";
 import StepIcon from "../components/StepIcon";
+import InstagramIcon from "../components/InstagramIcon";
 
 export default {
   name: "blockContent",
@@ -121,6 +122,12 @@ export default {
       title: "Podcast Embed",
       icon: PodcastEmbedIcon,
       type: "podcast",
+    },
+    {
+      name: "socialAccounts",
+      title: "Social Accounts List",
+      icon: InstagramIcon,
+      type: "socialAccounts",
     },
     {
       name: "videoGif",
