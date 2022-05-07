@@ -31,7 +31,7 @@ import nutritionProgramStatsBar from "./Cards/nutritionProgramStatsBar";
 import youTube from "./BlogPost/youTube";
 import podcast from "./BlogPost/podcast";
 import blogPostTip from "./BlogPost/blogPostTip";
-import videoGif from "./BlogPost/videoGif";
+import videoCloudflare from "./BlogPost/videoCloudflare";
 import socialShareInformation from "./socialShareInformation";
 import sectionImage from "./Images/sectionImage";
 import workout from "./BlogPost/workout";
@@ -41,16 +41,8 @@ import detailedStep from "./BlogPost/detailedStep";
 import socialaccounts from "./BlogPost/socialaccounts";
 
 // Shared Components on all Mini Sites
-import callToActionSections from "./callToActions";
 import downloads from "./downloads";
 import seoData from "./seoData";
-
-// FWW LIVE Mini Site
-import aboutFWWLive from "./FWWLive/about";
-import benefitsFWWLive from "./FWWLive/benefits";
-import classScheduleFWWLive from "./FWWLive/classSchedule";
-import fwwLiveWorkoutStyleCards from "./Cards/fwwLiveWorkoutStyleCards";
-import pricingFWWLive from "./FWWLive/pricing";
 
 // FWW Habit Mini Site
 import aboutFWWHabit from "./FWWHabit/about";
@@ -58,28 +50,17 @@ import benefitsFWWHabit from "./FWWHabit/benefits";
 import workoutProgramsHabit from "./FWWHabit/workoutPrograms";
 import pricingFWWHabit from "./FWWHabit/pricing";
 
-// Plan Smart Eat Real Mini Site
-import aboutPlanSmartEatReal from "./PlanSmartEatReal/about";
-import benefitsPlanSmartEatReal from "./PlanSmartEatReal/benefits";
-
 // Will have to delete this with CLI tool
 // fwwLiveWorkoutStyleCards
 // Kettlebell Crunch
-import kettlebellCrunchCards from "./Cards/kettlebellCrunchCards";
-import kettlebellCrunchProduct from "./KettlebellCrunch/crunchProduct";
 
 import baseLandingPage from "./LandingPages/baseLandingPage";
 import fwwThankYouPages from "./Pages/thankYouPages";
 
 import copyBlock from "./copyBlock";
 
-import home from "./Pages/home";
-import mainSiteHome from "./MainSite/home";
-import about from "./Pages/about";
-
 import privateNutritionCoaching from "./Pages/privateNutritionCoaching";
 import legalPages from "./Pages/legalPages";
-import fwwLiveTrialThankYou from "./Pages/fwwLiveTrialThankYou";
 import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial";
 import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP";
 
@@ -128,41 +109,18 @@ export default createSchema({
     youTube,
     podcast,
     blogPostTip,
-    videoGif,
+    videoCloudflare,
     workout,
     exercise,
     recipe,
     detailedStep,
     socialaccounts,
     copyBlock,
-    home,
-    mainSiteHome,
-    about,
-    aboutFWWLive,
-    benefitsFWWLive,
-    classScheduleFWWLive,
-    fwwLiveWorkoutStyleCards,
-    pricingFWWLive,
-    aboutFWWHabit,
-    benefitsFWWHabit,
-    workoutProgramsHabit,
-    pricingFWWHabit,
-    aboutPlanSmartEatReal,
-    benefitsPlanSmartEatReal,
-    kettlebellCrunchCards,
-    kettlebellCrunchProduct,
-    callToActionSections,
     salesPage,
-    baseLandingPage,
     downloads,
-    seoData,
     fwwThankYouPages,
-    privateNutritionCoaching,
     legalPages,
     socialShareInformation,
-    fwwLiveThreeDayTrial,
-    fwwLiveUpsellPage,
-    fwwLiveTestimonialLP,
     transformationsPage,
     fwwLiveSweatySelfies,
     sectionImage,

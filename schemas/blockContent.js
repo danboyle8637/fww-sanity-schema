@@ -130,9 +130,9 @@ export default {
       type: "socialAccounts",
     },
     {
-      name: "videoGif",
-      title: "Video Gif",
-      type: "videoGif",
+      name: "videoCloudflare",
+      title: "Cloudflare Video",
+      type: "videoCloudflare",
     },
     {
       name: "ctaBanner",
