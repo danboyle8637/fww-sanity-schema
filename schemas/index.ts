@@ -1,8 +1,4 @@
-// First, we must import the schema creator
-import createSchema from "part:@sanity/base/schema-creator";
-
 // Then import schema types from any plugins that might expose them
-import schemaTypes from "all:part:@sanity/base/schema-type";
 import author from "./author";
 import post from "./post";
 import postTag from "./postTag";
@@ -74,55 +70,48 @@ import fwwLiveSweatySelfies from "./Images/fwwLiveSweatySelfies";
 import salesPage from "./Pages/salesPage";
 
 // Then we give our schema to the builder and provide the result to Sanity
-export default createSchema({
-  // We name our schema
-  name: `Fit Women's Weekly`,
-  // Then proceed to concatenate our document type
-  // to the ones provided by any plugins that are installed
-  types: schemaTypes.concat([
-    /* Your types here! */
-    author,
-    post,
-    postTag,
-    blockContent,
-    secondaryBlockContent,
-    mobileImage,
-    iPadImage,
-    laptopImage,
-    cardImage,
-    standardImage,
-    mainPostImage,
-    postImage,
-    inlineCtaBanner,
-    pageImage,
-    backgroundImage,
-    inPageImage,
-    workoutProgramCard,
-    testimonialCard,
-    ctaBannerCard,
-    nutritionCard,
-    recipePreviewCard,
-    docPriceCard,
-    blogCalloutCardImage,
-    workoutProgramStatsBar,
-    nutritionProgramStatsBar,
-    youTube,
-    podcast,
-    blogPostTip,
-    videoCloudflare,
-    workout,
-    exercise,
-    recipe,
-    detailedStep,
-    socialaccounts,
-    copyBlock,
-    salesPage,
-    downloads,
-    fwwThankYouPages,
-    legalPages,
-    socialShareInformation,
-    transformationsPage,
-    fwwLiveSweatySelfies,
-    sectionImage,
-  ]),
-});
+export const schemaTypes = [
+  author,
+  post,
+  postTag,
+  blockContent,
+  secondaryBlockContent,
+  mobileImage,
+  iPadImage,
+  laptopImage,
+  cardImage,
+  standardImage,
+  mainPostImage,
+  postImage,
+  inlineCtaBanner,
+  pageImage,
+  backgroundImage,
+  inPageImage,
+  workoutProgramCard,
+  testimonialCard,
+  ctaBannerCard,
+  nutritionCard,
+  recipePreviewCard,
+  docPriceCard,
+  blogCalloutCardImage,
+  workoutProgramStatsBar,
+  nutritionProgramStatsBar,
+  youTube,
+  podcast,
+  blogPostTip,
+  videoCloudflare,
+  workout,
+  exercise,
+  recipe,
+  detailedStep,
+  socialaccounts,
+  copyBlock,
+  salesPage,
+  downloads,
+  fwwThankYouPages,
+  legalPages,
+  socialShareInformation,
+  transformationsPage,
+  fwwLiveSweatySelfies,
+  sectionImage,
+];

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const FWWLiveLogo = () => {
   return (
@@ -169,7 +169,7 @@ const FWWLiveLogo = () => {
         </linearGradient>
       </defs>
     </svg>
-  )
-}
+  );
+};
 
-export default FWWLiveLogo
+export default FWWLiveLogo;

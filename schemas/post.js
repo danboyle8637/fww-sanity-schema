@@ -1,4 +1,4 @@
-import { FaPencilAlt } from "react-icons/fa"
+import { FaPencilAlt } from "react-icons/fa";
 
 export default {
   name: "blogPost",
@@ -60,4 +60,4 @@ export default {
       type: "blockContent",
     },
   ],
-}
+};
