@@ -1,5 +1,5 @@
-import { FaRegImage } from "react-icons/fa"
-import { STRING_1, STRING_2, STRING_3 } from "../constants"
+import { FaRegImage } from "react-icons/fa";
+import { STRING_1, STRING_2, STRING_3 } from "../constants";
 
 export default {
   name: "backgroundImage",
@@ -19,18 +19,12 @@ export default {
       title: "Image Title:",
       description: "Give this image a short title.",
       type: "string",
-      options: {
-        isHighlighted: true,
-      },
     },
     {
       name: "imageAltTag",
       title: "Image Alt Tag:",
       description: "Describe what this image is for people who cannot see it.",
       type: "string",
-      options: {
-        isHighlighted: true,
-      },
     },
     {
       name: "mobileImage",
@@ -51,4 +45,4 @@ export default {
       type: "laptopImage",
     },
   ],
-}
+};

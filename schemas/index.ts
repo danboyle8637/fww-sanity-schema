@@ -18,12 +18,10 @@ import inPageImage from "./Images/inPageImage";
 import workoutProgramCard from "./Cards/workoutProgramCard";
 import testimonialCard from "./Cards/testimonialCard";
 import ctaBannerCard from "./Cards/ctaBannerCard";
-import nutritionCard from "./Cards/nutritionProgramCard";
 import recipePreviewCard from "./Cards/recipePreviewCard";
 import docPriceCard from "./priceCard";
 import blogCalloutCardImage from "./Images/blogCalloutCardImage";
 import workoutProgramStatsBar from "./Cards/workoutProgramStatsBar";
-import nutritionProgramStatsBar from "./Cards/nutritionProgramStatsBar";
 import youTube from "./BlogPost/youTube";
 import podcast from "./BlogPost/podcast";
 import blogPostTip from "./BlogPost/blogPostTip";
@@ -90,12 +88,10 @@ export const schemaTypes = [
   workoutProgramCard,
   testimonialCard,
   ctaBannerCard,
-  nutritionCard,
   recipePreviewCard,
   docPriceCard,
   blogCalloutCardImage,
   workoutProgramStatsBar,
-  nutritionProgramStatsBar,
   youTube,
   podcast,
   blogPostTip,

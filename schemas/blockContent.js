@@ -36,9 +36,7 @@ export default {
             name: "internalPostLink",
             type: "object",
             title: "Internal Post Link",
-            blockEditor: {
-              icon: FaLink,
-            },
+            icon: FaLink,
             fields: [
               {
                 name: "reference",
@@ -52,7 +50,7 @@ export default {
             name: "internalPageLink",
             type: "object",
             title: "Internal Page Link",
-            blockEditor: { icon: FaRegCompass },
+            icon: FaRegCompass,
             fields: [
               {
                 name: "pageUrl",
@@ -66,9 +64,7 @@ export default {
             name: "externalLink",
             type: "object",
             title: "External Page Link",
-            blockEditor: {
-              icon: FaExternalLinkAlt,
-            },
+            icon: FaExternalLinkAlt,
             fields: [
               {
                 name: "externalUrl",
