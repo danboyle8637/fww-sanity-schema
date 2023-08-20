@@ -35,6 +35,12 @@ export default {
       type: "mainPostImage",
     },
     {
+      name: "blogPostArticleSchema",
+      title: "Blog Post Article Schema",
+      description: "Google rich snippets for the article type.",
+      type: "articleSchema",
+    },
+    {
       name: "tags",
       title: "Tags:",
       description: "Enter only the very relevant tag or tags for this post.",

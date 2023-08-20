@@ -32,7 +32,8 @@ import workout from "./BlogPost/workout";
 import exercise from "./BlogPost/exercise";
 import recipe from "./BlogPost/recipe";
 import detailedStep from "./BlogPost/detailedStep";
-import socialaccounts from "./BlogPost/socialaccounts";
+import socialaccounts from "./BlogPost/socialAccounts";
+import articleSchema from "./BlogPost/articleSchema";
 
 // Shared Components on all Mini Sites
 import downloads from "./downloads";
@@ -70,6 +71,7 @@ import salesPage from "./Pages/salesPage";
 // Then we give our schema to the builder and provide the result to Sanity
 export const schemaTypes = [
   author,
+  articleSchema,
   post,
   postTag,
   blockContent,

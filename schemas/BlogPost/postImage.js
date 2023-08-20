@@ -3,12 +3,12 @@ export default {
   title: "Post Image",
   type: "object",
   fields: [
-    {
-      name: "tinyImage",
-      title: "Upload a Tiny Image:",
-      description: "This is a tiny image for lazy loading. Width = 50",
-      type: "image",
-    },
+    // {
+    //   name: "tinyImage",
+    //   title: "Upload a Tiny Image:",
+    //   description: "This is a tiny image for lazy loading. Width = 50",
+    //   type: "image",
+    // },
     {
       name: "mainImage",
       title: "Main Image:",
