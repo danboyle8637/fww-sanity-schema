@@ -6,7 +6,7 @@ import { schemaTypes } from "./schemas";
 
 export default defineConfig({
   name: "fit_womens_weekly",
-  title: "fit_womens_weekly",
+  title: "Fit Women's Weekly Blog",
   projectId: "ie5weekx",
   dataset: "production",
   plugins: [deskTool(), visionTool(), media()],

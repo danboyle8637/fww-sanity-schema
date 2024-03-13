@@ -1,6 +1,7 @@
 // Then import schema types from any plugins that might expose them
 import author from "./author";
 import post from "./post";
+import videoPost from "./videoPost";
 import postTag from "./postTag";
 import blockContent from "./blockContent";
 import secondaryBlockContent from "./blockContent/secondaryBlockContent";
@@ -15,13 +16,10 @@ import inlineCtaBanner from "./BlogPost/inlineCtaBanner";
 import pageImage from "./pageImage";
 import backgroundImage from "./Images/backgroundImage";
 import inPageImage from "./Images/inPageImage";
-import workoutProgramCard from "./Cards/workoutProgramCard";
 import testimonialCard from "./Cards/testimonialCard";
 import ctaBannerCard from "./Cards/ctaBannerCard";
 import recipePreviewCard from "./Cards/recipePreviewCard";
-import docPriceCard from "./priceCard";
 import blogCalloutCardImage from "./Images/blogCalloutCardImage";
-import workoutProgramStatsBar from "./Cards/workoutProgramStatsBar";
 import youTube from "./BlogPost/youTube";
 import podcast from "./BlogPost/podcast";
 import blogPostTip from "./BlogPost/blogPostTip";
@@ -33,33 +31,19 @@ import exercise from "./BlogPost/exercise";
 import recipe from "./BlogPost/recipe";
 import detailedStep from "./BlogPost/detailedStep";
 import socialaccounts from "./BlogPost/socialAccounts";
-import articleSchema from "./BlogPost/articleSchema";
 
-// Shared Components on all Mini Sites
-import downloads from "./downloads";
-import seoData from "./seoData";
-
-// FWW Habit Mini Site
-import aboutFWWHabit from "./FWWHabit/about";
-import benefitsFWWHabit from "./FWWHabit/benefits";
-import workoutProgramsHabit from "./FWWHabit/workoutPrograms";
-import pricingFWWHabit from "./FWWHabit/pricing";
+// Rich snippets and schema for structured site data
+import articleSchema from "./richSchema/articleSchema";
+import videoSchema from "./richSchema/videoSchema";
 
 // Will have to delete this with CLI tool
 // fwwLiveWorkoutStyleCards
 // Kettlebell Crunch
 
-import baseLandingPage from "./LandingPages/baseLandingPage";
-import fwwThankYouPages from "./Pages/thankYouPages";
-
 import copyBlock from "./copyBlock";
 
-import privateNutritionCoaching from "./Pages/privateNutritionCoaching";
 import legalPages from "./Pages/legalPages";
-import fwwLiveThreeDayTrial from "./Pages/fwwLiveThreeDayTrial";
-import fwwLiveTestimonialLP from "./Pages/fwwLiveTestimonialLP";
 
-import fwwLiveUpsellPage from "./Pages/fwwLiveUpsellPage";
 import transformationsPage from "./Pages/transformationsPage";
 
 // ? FWW LIVE
@@ -72,7 +56,9 @@ import salesPage from "./Pages/salesPage";
 export const schemaTypes = [
   author,
   articleSchema,
+  videoSchema,
   post,
+  videoPost,
   postTag,
   blockContent,
   secondaryBlockContent,
@@ -87,13 +73,10 @@ export const schemaTypes = [
   pageImage,
   backgroundImage,
   inPageImage,
-  workoutProgramCard,
   testimonialCard,
   ctaBannerCard,
   recipePreviewCard,
-  docPriceCard,
   blogCalloutCardImage,
-  workoutProgramStatsBar,
   youTube,
   podcast,
   blogPostTip,
@@ -105,8 +88,6 @@ export const schemaTypes = [
   socialaccounts,
   copyBlock,
   salesPage,
-  downloads,
-  fwwThankYouPages,
   legalPages,
   socialShareInformation,
   transformationsPage,
